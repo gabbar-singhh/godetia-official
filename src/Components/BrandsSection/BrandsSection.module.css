@@ -1,10 +1,10 @@
 .main {
-    padding: 5.6rem 0;
+    padding-top: 5.6rem;
     text-align: center;
 }
 
 .main .chip {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     background-color: #00808026;
     box-shadow: 0 0 0 3px #008080a8;
@@ -15,7 +15,7 @@
 }
 
 .main h1 {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     color: #3c3c3c;
     line-height: 125%;

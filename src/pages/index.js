@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Navbar from "@/Components/Navbar/Navbar";
 import HeroSection from "@/Components/HeroSection/HeroSection";
 import BrandsSection from "@/Components/BrandsSection/BrandsSection";
+import ChooseUs from "@/Components/ChooseUs/ChooseUs";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function Home() {
         <Navbar />
         <HeroSection />
         <BrandsSection/>
+        <ChooseUs/>
       </div>
     </>
   );
