@@ -1,0 +1,90 @@
+.main {
+    padding: 4.8rem 0;
+    text-align: center;
+}
+
+.main .chip {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #00808026;
+    box-shadow: 0 0 0 3px #008080a8;
+    color: #008080;
+    border-radius: 4rem;
+    padding: 4px 12px;
+    display: inline;
+}
+
+.main h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+.main p {
+    font-size: 17px;
+    text-align: center;
+    width: 724px;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    width: 656px;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+}
+
+.logos {
+    overflow: hidden;
+    padding-top: 3.2rem;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logosSlide {
+    animation-play-state: paused;
+}
+
+.logosSlide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logosSlide img {
+    height: 64px;
+    margin: 0 40px;
+    filter: grayscale(100%);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

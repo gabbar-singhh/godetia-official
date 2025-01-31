@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/Components/Navbar/Navbar";
 import HeroSection from "@/Components/HeroSection/HeroSection";
+import BrandsSection from "@/Components/BrandsSection/BrandsSection";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function Home() {
       <div className={`${styles.page} ${poppins.className}`}>
         <Navbar />
         <HeroSection />
+        <BrandsSection/>
       </div>
     </>
   );
