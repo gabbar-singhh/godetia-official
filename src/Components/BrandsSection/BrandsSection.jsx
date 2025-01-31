@@ -41,9 +41,9 @@ const BrandsSection = () => {
     "united",
   ];
   return (
-    <section className={styles.main}>
+    <section className={`${styles.main}`}>
       <p className={styles.chip}>Partnered with the Best</p>
-      <h1>Trusted By Industry Leading Brands</h1>
+      <h1>Trusted By Leading Brands</h1>
       <p>
         Godetia powers the first aid solutions for industry leaders, offering
         globally certified products and unmatched reliability.
