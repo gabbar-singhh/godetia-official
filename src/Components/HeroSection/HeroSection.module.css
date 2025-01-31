@@ -4,13 +4,7 @@
     justify-content: center;
     gap: 2.4rem;
     height: 85vh;
-
-    /* background-image: url('/assets/bg1.png'); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    text-align: center;
+    background-color: #de7a0317;
 
 }
 
@@ -21,6 +15,21 @@
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+.content .chip {
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #008080;
+    color: #008080;
+    border-radius: 4rem;
+    padding: 4px 14px 4px 4px;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
 }
 
 .content h1 {
@@ -107,4 +116,17 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.right .galleryGridCol_1 .img_1,
+.right .galleryGridCol_2 .img_4 {
+    height: 352px;
+    width: 246px;
+}
+
+
+.right .galleryGridCol_1 .img_2,
+.right .galleryGridCol_2 .img_3 {
+    height: 270px;
+    width: 246px;
 }
