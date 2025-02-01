@@ -1,22 +1,21 @@
 :root {
   --primary-color: #F08300;
-  --neutral-one: #F9FAFB; 
-  --neutral-two: #F4E8D4; 
-  --neutral-three: #3C3C3C; 
+  --neutral-one: #F9FAFB;
+  --neutral-two: #F4E8D4;
+  --neutral-three: #3C3C3C;
+  --accent-color: #008080;
 
 }
 
 html {
   scroll-behavior: smooth;
-
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
   overscroll-behavior-y: none;
   cursor: default;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,6 +35,21 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+
+/* SCROLL CSS */
+body::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+body::-webkit-scrollbar-track {
+  padding: 2em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 0.5em;
 }
 
 /* CSS EFFECTS */

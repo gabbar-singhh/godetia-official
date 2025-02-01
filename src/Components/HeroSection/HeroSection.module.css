@@ -5,9 +5,6 @@
     gap: 2.4rem;
     height: 85vh;
     background-color: #de7a0317;
-
-    /* background: #FAE7D8; */
-    /* background: linear-gradient(180deg, #FAE7D8, #FFFFFF); */
 }
 
 .main .content {
@@ -22,8 +19,8 @@
 .content .chip {
     font-size: 14px;
     font-weight: 600;
-    border: 1px solid #008080;
-    color: #008080;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
     border-radius: 4rem;
     padding: 4px 14px 4px 4px;
     width: auto;
@@ -44,7 +41,7 @@
 
 .content h1 span {
     font-family: "Alkatra", serif;
-    color: #008080;
+    color: var(--accent-color);
     font-size: 52px;
     text-decoration: underline;
     text-underline-offset: 8px;

@@ -1,5 +1,10 @@
 .main {
-  padding-top: 5.6rem;
+  padding: 128px 0;
+
+  background-image: url('/assets/bg5.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main h1 {
@@ -9,7 +14,7 @@
   line-height: 125%;
   font-weight: 600;
   margin-top: 1.2rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 2.4rem;
 }
 
 .main .godetia {
@@ -19,29 +24,17 @@
 }
 
 .cardStack {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.8rem;
-
-  position: sticky;
-  top: 0;
-  transform-origin: center top;
+  list-style-type: none;
 }
 
 .card {
   width: 724px;
-  background-color: #00808026;
-  border-radius: 1em;
+  background-color: #deecec;
+  border-radius: 8px;
   padding: 3.2rem;
-  box-shadow: 0 0 0 3px #0097974d;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: sticky;
-  top: 0;
+  box-shadow: 0 0 0 3px #0097971c;
+  margin: 0 auto;
+  margin-bottom: 2.2rem;
 }
 
 .card img {

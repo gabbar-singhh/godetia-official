@@ -8,7 +8,7 @@
     font-weight: 600;
     background-color: #00808026;
     box-shadow: 0 0 0 3px #008080a8;
-    color: #008080;
+    color: var(--accent-color);
     border-radius: 4rem;
     padding: 4px 12px;
     display: inline;
