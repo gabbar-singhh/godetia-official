@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link href={"/"}>
             <li className={`${styles.nav_li} underlineEff`}>home</li>
           </Link>
-          <Link href={"/product"}>
+          <Link href={"/products"}>
             <li className={`${styles.nav_li} underlineEff`}>Medical Kits</li>
           </Link>{" "}
           <Link href={"/about_us"}>

@@ -6,6 +6,9 @@ import Navbar from "@/Components/Navbar/Navbar";
 import HeroSection from "@/Components/HeroSection/HeroSection";
 import BrandsSection from "@/Components/BrandsSection/BrandsSection";
 import ChooseUs from "@/Components/ChooseUs/ChooseUs";
+import FeaturedProducts from "@/Components/FeaturedProducts/FeaturedProducts";
+import Certification from "@/Components/Certification/Certification";
+import StatsSection from "@/Components/StatsSection/StatsSection";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -37,6 +40,9 @@ export default function Home() {
         <HeroSection />
         <BrandsSection/>
         <ChooseUs/>
+        <FeaturedProducts/>
+        <StatsSection/>
+        <Certification/>
       </div>
     </>
   );
