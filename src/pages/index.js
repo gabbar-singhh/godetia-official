@@ -9,6 +9,7 @@ import ChooseUs from "@/Components/ChooseUs/ChooseUs";
 import FeaturedProducts from "@/Components/FeaturedProducts/FeaturedProducts";
 import Certification from "@/Components/Certification/Certification";
 import StatsSection from "@/Components/StatsSection/StatsSection";
+import FinalCTA from "@/Components/FinalCTA/FinalCTA";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -43,6 +44,7 @@ export default function Home() {
         <FeaturedProducts/>
         <StatsSection/>
         <Certification/>
+        <FinalCTA/>
       </div>
     </>
   );

@@ -1,6 +1,9 @@
 .main {
     text-align: center;
     padding: 96px 0 96px 0;
+    position: relative;
+
+    background-color: #eef5f5;
 }
 
 .main .chip {
@@ -48,7 +51,7 @@
 .certificate {
     overflow: hidden;
     padding-top: 3.2rem;
-    background: white;
+    background: #eef5f5;
     white-space: nowrap;
     position: relative;
 }
@@ -65,12 +68,12 @@
 
 .certificate:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #eef5f5);
 }
 
 .certificate:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #eef5f5);
 }
 
 .certificate:hover .certificateSlide {

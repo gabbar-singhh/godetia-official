@@ -1,0 +1,82 @@
+.main {
+    padding: 96px 0;
+    background-color: #eef5f5;
+
+    background: #008080;
+    background: linear-gradient(0deg, #5f9e9e, #EEF5F5);
+
+}
+
+.container {
+    background-color: #5f9e9e47;
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 48px 72px 0 72px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.left h1 {
+    font-size: 28px;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+.left .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 34px;
+}
+
+.left p {
+    font-size: 17px;
+    line-height: 150%;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    width: 656px;
+    margin-top: 0.5rem;
+}
+
+.left .ctaButton {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #de7a03;
+    padding: 0.7rem 1.1rem;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    margin-top: 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left .ctaButton:hover {
+    color: #fff;
+    background-color: #b4844a;
+}
+
+.right {
+    display: flex;
+}
+
+.right img {
+    height: 324px;
+}
