@@ -1,23 +1,25 @@
 .main {
-  padding: 128px 0;
-
-  background-image: url('/assets/bg5.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #ffffff, #fcfcfd, #f7fafb, #f2f7f9, #eef5f5);
 }
 
-.main h1 {
+.chooseUsMain {
+  padding: 96px 0 56px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chooseUsMain h1 {
   font-size: 28px;
   text-align: center;
   color: #3c3c3c;
   line-height: 125%;
   font-weight: 600;
-  margin-top: 1.2rem;
   margin-bottom: 2.4rem;
 }
 
-.main .godetia {
+.chooseUsMain .godetia {
   color: var(--primary-color);
   font-family: "Alkatra", serif;
   font-size: 34px;
@@ -25,16 +27,18 @@
 
 .cardStack {
   list-style-type: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0 !important;
 }
 
 .card {
-  width: 724px;
+  width: 384px;
   background-color: #deecec;
   border-radius: 8px;
-  padding: 3.2rem;
-  box-shadow: 0 0 0 3px #0097971c;
+  padding: 2.8rem 2.4rem;
+  box-shadow: 0 0 0 3px #00808036;
   margin: 0 auto;
-  margin-bottom: 2.2rem;
 }
 
 .card img {
@@ -57,4 +61,33 @@
   font-weight: 400;
   letter-spacing: 0.1px;
   margin: 0 auto;
+}
+
+
+.ctaButton {
+  font-size: 1rem;
+  font-weight: 600;
+
+  text-align: center;
+  background-color: var(--accent-color);
+  padding: 1rem 1.8rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 1px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto;
+  margin-top: 4.2rem;
+}
+
+.ctaButton:hover {
+  color: #fff;
+  background-color: #5f9e9e;
 }

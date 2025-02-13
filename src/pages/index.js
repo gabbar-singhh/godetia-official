@@ -3,13 +3,16 @@ import Image from "next/image";
 import { Poppins } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/Components/Navbar/Navbar";
-import HeroSection from "@/Components/HeroSection/HeroSection";
+import HeroSectionNew from "@/Components/HeroSectionNew/HeroSectionNew";
 import BrandsSection from "@/Components/BrandsSection/BrandsSection";
 import ChooseUs from "@/Components/ChooseUs/ChooseUs";
 import FeaturedProducts from "@/Components/FeaturedProducts/FeaturedProducts";
 import Certification from "@/Components/Certification/Certification";
-import StatsSection from "@/Components/StatsSection/StatsSection";
 import FinalCTA from "@/Components/FinalCTA/FinalCTA";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ProductCategory from "@/Components/ProductCategory/ProductCategory";
+import OemSection from "@/Components/OemSection/OemSection";
+import ContactForm from "@/Components/ContactForm/ContactForm";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -34,17 +37,19 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap"
           rel="stylesheet"
         ></link>
-        
       </Head>
       <div className={`${styles.page} ${poppins.className}`}>
         <Navbar />
-        <HeroSection />
-        <BrandsSection/>
-        <ChooseUs/>
-        <FeaturedProducts/>
-        <StatsSection/>
-        <Certification/>
-        <FinalCTA/>
+        <HeroSectionNew />
+        <ProductCategory />
+        <OemSection />
+        <FeaturedProducts />
+        <ChooseUs />
+        <Certification />
+        <BrandsSection />
+        <FinalCTA />
+        <ContactForm />
+        {/* footer */}
       </div>
     </>
   );

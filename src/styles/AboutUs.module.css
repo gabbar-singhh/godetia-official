@@ -1,0 +1,295 @@
+.main {
+    /* background-color: yellow; */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 96px auto;
+}
+
+.aboutus h1 {
+    font-size: 28px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.aboutus p {
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin: 0;
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+}
+
+.aboutFactory h1 {
+    font-size: 28px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+}
+
+.aboutFactory p {
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin: 0;
+    margin: 0 auto;
+}
+
+.aboutFactory .videoContainer {
+    padding-top: 56.25%;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    height: fit-content;
+    border-radius: 8px !important;
+}
+
+.aboutFactory .videoIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px !important;
+}
+
+.aboutCommit h1 {
+    font-size: 28px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 1.4rem;
+    margin-bottom: 1.8rem;
+}
+
+.aboutCommit .stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.stack .row1,
+.stack .row2 {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stack .card {
+    background-color: #eef5f5;
+    padding: 1.8rem 1.8rem;
+    border-radius: 8px;
+    border: 1px solid #0080802b;
+}
+
+.stack .card .cardIcon {
+    height: 42px;
+    margin-bottom: 12px;
+}
+
+.stack .card h2 {
+    font-size: 20px;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+
+.stack .card p {
+    font-size: 1rem;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+}
+
+.aboutVision h1 {
+    font-size: 28px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+}
+
+.aboutVision p {
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+}
+
+.aboutTeam {
+    background-image: url('/assets/bg-saffron.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 4.8rem;
+}
+
+.aboutTeam h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 1.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.aboutTeam h1 .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 32px;
+    text-decoration:underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+}
+
+.teamCard {
+    margin-right: 1.8rem;
+    background-color: #f0830130;
+    padding: 1.2rem 1.4rem;
+    border-radius: 6px;
+    border: 1px solid #f0830147;
+}
+
+.teamCard .teamImg {
+    height: 284px;
+    border-radius: 8px;
+}
+
+.teamCard h2 {
+    font-size: 20px;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-top: 16px;
+    text-transform: capitalize;
+}
+
+.teamCard p {
+    font-size: 1rem;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+}
+
+.finalCTA {
+
+    padding: 96px 0;
+    background-image: linear-gradient(#fdfdfe, #fdfbfd, #fdf9fa, #fef7f6, #fcf6f2);
+}
+
+.finalCTA .finalCTAContainer {
+    display: flex;
+    background-color: #fdf3eb;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.8rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    padding: 48px 64px 0;
+    border: 1px solid #f0830130;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left h1 {
+    font-size: 28px;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 2.4rem;
+}
+
+.left .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 34px;
+}
+
+.left p {
+    font-size: 17px;
+    line-height: 150%;
+    color: #fff;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    width: 624px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.left .ctaButton {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #de7a03;
+    padding: 0.7rem 1.1rem;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    margin-top: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left .ctaButton:hover {
+    color: #fff;
+    background-color: #b4844a;
+}
+
+.right {
+    display: flex;
+}
+
+.right img {
+    height: 324px;
+}

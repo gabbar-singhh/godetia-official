@@ -1,17 +1,8 @@
 .main {
-    padding-top: 5.6rem;
+    padding: 0rem 0 5.6rem 0;
     text-align: center;
-}
 
-.main .chip {
-    font-size: 12px;
-    font-weight: 600;
-    background-color: #00808026;
-    box-shadow: 0 0 0 3px #008080a8;
-    color: var(--accent-color);
-    border-radius: 4rem;
-    padding: 4px 12px;
-    display: inline;
+    background-image: linear-gradient(to bottom, #eef5f5, #f2f7f9, #f7f9fb, #fbfbfd, #fefefe);
 }
 
 .main h1 {
@@ -20,7 +11,13 @@
     color: #3c3c3c;
     line-height: 125%;
     font-weight: 600;
-    margin-top: 1.2rem;
+}
+
+.main h1 .godetia {
+    color: var(--accent-color);
+    font-family: "Alkatra", serif;
+    font-size: 34px;
+    margin-right: 2px;
 }
 
 .main p {
@@ -39,7 +36,7 @@
 .logos {
     overflow: hidden;
     padding-top: 3.2rem;
-    background: white;
+    /* background: white; */
     white-space: nowrap;
     position: relative;
 }
@@ -56,12 +53,14 @@
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    /* background: linear-gradient(to left, rgba(255, 255, 255, 0), white); */
+    background: linear-gradient(to left, #fff0, #f8f9fb);
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0), white); */
+    background: linear-gradient(to right, #fff0, #f8f9fb);
 }
 
 .logos:hover .logosSlide {

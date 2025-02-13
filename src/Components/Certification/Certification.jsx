@@ -21,9 +21,9 @@ const Certification = () => {
 
   return (
     <section className={styles.main}>
-      <p className={styles.chip}>Trusted Certifications</p>
+      <p className={styles.chip}>Approved & Trusted Everywhere</p>
       <h1>
-        <span className={styles.godetia}>Godetia</span> is Globally Certified.
+        <span className={styles.godetia}>Godetia</span> is Medically Certified
       </h1>
       <p>
         Internationally approved and medically safe, we take pride in providing
@@ -37,17 +37,6 @@ const Certification = () => {
           ))}
         </div>
       </div>
-
-      <div className={styles.ctaButton}>
-          <span>Get Started Now</span>
-          <Image
-            className={styles.img}
-            src="/icons/ctaArrow.svg"
-            alt="arrow upright icon"
-            height={12}
-            width={12}
-          />
-        </div>
     </section>
   );
 };
