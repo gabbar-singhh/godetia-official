@@ -33,7 +33,7 @@ const OemSection = () => {
         </div>
         <img
           className={styles.rightImg}
-          src="/assets/oem.png"
+          src="/assets/oem.webp"
           alt="china manufacturing img"
         />
       </div>

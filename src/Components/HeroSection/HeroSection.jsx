@@ -28,7 +28,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.right}>
-        <img src="/assets/aboutus.png" alt="about team" />
+        <img src="/assets/aboutus.webp" alt="about team" />
       </div>
     </section>
   );

@@ -9,10 +9,10 @@ import ChooseUs from "@/Components/ChooseUs/ChooseUs";
 import FeaturedProducts from "@/Components/FeaturedProducts/FeaturedProducts";
 import Certification from "@/Components/Certification/Certification";
 import FinalCTA from "@/Components/FinalCTA/FinalCTA";
-import "bootstrap/dist/css/bootstrap.min.css";
 import ProductCategory from "@/Components/ProductCategory/ProductCategory";
 import OemSection from "@/Components/OemSection/OemSection";
 import ContactForm from "@/Components/ContactForm/ContactForm";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
