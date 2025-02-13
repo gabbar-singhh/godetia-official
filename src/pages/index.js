@@ -38,12 +38,12 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <div className={`${styles.page} ${poppins.className}`}>
         <Navbar />
+      <div className={`${styles.page} ${poppins.className}`}>
         <HeroSectionNew />
         <ProductCategory />
         <OemSection />
-        <FeaturedProducts />
+        <FeaturedProducts showBtnVal={true} heading="Our Best Selling Products" />
         <ChooseUs />
         <Certification />
         <BrandsSection />

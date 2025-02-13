@@ -1,19 +1,3 @@
-.heroSection h1 {
-    font-size: 28px;
-    text-align: center;
-    color: #3c3c3c;
-    line-height: 125%;
-    font-weight: 600;
-    margin-top: 1.2rem;
-    margin-bottom: 2.4rem;
-}
-
-.heroSection .godetia {
-    color: var(--primary-color);
-    font-family: "Alkatra", serif;
-    font-size: 34px;
-}
-
 .imgSlide {
     display: block;
     width: 100vw;
@@ -22,7 +6,6 @@
 .ctaButton {
     font-size: 1.1rem;
     font-weight: 600;
-
     text-align: left;
     background-color: var(--accent-color);
     padding: 1rem 1.8rem;
@@ -33,7 +16,6 @@
     color: #fff;
     cursor: pointer;
     transition: all 500ms ease-in-out;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +28,7 @@
     color: #fff;
     background-color: #529d9d;
 }
+
 
 .getStartedBtn {
     font-size: 1.1rem;
@@ -72,4 +55,165 @@
 .getStartedBtn:hover {
     color: #fff;
     background-color: #529d9d;
+}
+
+.container {
+    /* padding: 72px 0; */
+}
+
+.container h1 {
+    font-size: 28px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 34px;
+}
+
+.survivalKits,
+.portableKits {
+    margin: 0 auto;
+    padding: 48px 0;
+
+    background-color: #eef5f5;
+}
+
+.survivalKitsContainer,
+.portableKitsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 285px);
+    justify-content: center;
+}
+
+.card {
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    background-color: #0080801a;
+    padding: 1rem;
+    border: 1px solid #e3e3e3;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 12px #f1f1f1;
+    transform: translateY(-10px);
+}
+
+.card img {
+    height: 324px;
+    border-radius: 2px;
+}
+
+.card h2 {
+    font-size: 16px;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+
+.finalCTA {
+
+    padding: 96px 0;
+    background-image: linear-gradient(#fdfdfe, #fdfbfd, #fdf9fa, #fef7f6, #fcf6f2);
+}
+
+.finalCTA .finalCTAContainer {
+    display: flex;
+    background-color: #fdf3eb;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.8rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    padding: 48px 64px 0;
+    border: 1px solid #f0830130;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left h1 {
+    font-size: 28px;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 2.4rem;
+}
+
+.left .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 34px;
+}
+
+.left p {
+    font-size: 17px;
+    line-height: 150%;
+    color: #fff;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    width: 624px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.left .ctaButton {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #de7a03;
+    padding: 0.7rem 1.1rem;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    margin-top: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left .ctaButton:hover {
+    color: #fff;
+    background-color: #b4844a;
+}
+
+.right {
+    display: flex;
+}
+
+.right img {
+    height: 324px;
 }
