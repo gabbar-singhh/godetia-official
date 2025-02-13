@@ -5,6 +5,7 @@ import Head from "next/head";
 import styles from "@/styles/Products.module.css";
 import { Carousel } from "react-bootstrap";
 import Image from "next/image";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const products = () => {
   return (
@@ -20,59 +21,71 @@ const products = () => {
           href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap"
           rel="stylesheet"
         ></link>
+
       </Head>
       <section className={styles.main}>
         <Navbar />
 
         <Carousel>
           <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/caro-3.png"
-            alt="third slide"
-          />
+            <img
+              className={styles.imgSlide}
+              src="/assets/product-caro-1.webp"
+              alt="third slide"
+            />
 
-          <Carousel.Caption>
-            <div className={styles.getStartedBtn}>
-              <span>Show Me More</span>
-              <Image
-                className={styles.img}
-                src="/icons/ctaArrow.svg"
-                alt="arrow upright icon"
-                height={12}
-                width={12}
-              />
-            </div>
-          </Carousel.Caption>
-        </Carousel.Item>
-          <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/caro-4.png"
-            alt="fourth slide"
-          />
-
-          <Carousel.Caption>
-            <div className={styles.getStartedBtn}>
-              <span>Show Me More</span>
-              <Image
-                className={styles.img}
-                src="/icons/ctaArrow.svg"
-                alt="arrow upright icon"
-                height={12}
-                width={12}
-              />
-            </div>
-          </Carousel.Caption>
-        </Carousel.Item>
+            <Carousel.Caption>
+              <div className={styles.getStartedBtn}>
+                <span>Contact Us Now</span>
+                <Image
+                  className={styles.img}
+                  src="/icons/ctaArrow.svg"
+                  alt="arrow upright icon"
+                  height={12}
+                  width={12}
+                />
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src="/assets/caro-2.png"
+              className={styles.imgSlide}
+              src="/assets/product-caro-2.webp"
+              alt="fourth slide"
+            />
+
+            <Carousel.Caption>
+              <div className={styles.getStartedBtn}>
+                <span>Contact Us</span>
+                <Image
+                  className={styles.img}
+                  src="/icons/ctaArrow.svg"
+                  alt="arrow upright icon"
+                  height={12}
+                  width={12}
+                />
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className={styles.imgSlide}
+              src="/assets/product-caro-3.webp"
               alt="First slide"
             />
 
-            <Carousel.Caption></Carousel.Caption>
+            <Carousel.Caption>
+              <div className={styles.getStartedBtn}>
+                <span>Contact Us</span>
+                <Image
+                  className={styles.img}
+                  src="/icons/ctaArrow.svg"
+                  alt="arrow upright icon"
+                  height={12}
+                  width={12}
+                />
+              </div>
+            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </section>
