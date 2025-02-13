@@ -30,8 +30,28 @@ const products = () => {
           <Carousel.Item>
             <img
               className={styles.imgSlide}
-              src="/assets/product-caro-1.webp"
+              src="/assets/caro-5.webp"
               alt="third slide"
+            />
+
+            <Carousel.Caption>
+              <div className={styles.getStartedBtn}>
+                <span>Reach out on WhatsApp</span>
+                <Image
+                  className={styles.img}
+                  src="/icons/ctaArrow.svg"
+                  alt="arrow upright icon"
+                  height={12}
+                  width={12}
+                />
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className={styles.imgSlide}
+              src="/assets/product-caro-2.png"
+              alt="fourth slide"
             />
 
             <Carousel.Caption>
@@ -50,13 +70,13 @@ const products = () => {
           <Carousel.Item>
             <img
               className={styles.imgSlide}
-              src="/assets/product-caro-2.webp"
-              alt="fourth slide"
+              src="/assets/product-caro-3.png"
+              alt="First slide"
             />
 
             <Carousel.Caption>
               <div className={styles.getStartedBtn}>
-                <span>Contact Us</span>
+                <span>Contact Us Now</span>
                 <Image
                   className={styles.img}
                   src="/icons/ctaArrow.svg"
@@ -70,13 +90,13 @@ const products = () => {
           <Carousel.Item>
             <img
               className={styles.imgSlide}
-              src="/assets/product-caro-3.webp"
+              src="/assets/product-caro-4.png"
               alt="First slide"
             />
 
             <Carousel.Caption>
-              <div className={styles.getStartedBtn}>
-                <span>Contact Us</span>
+              <div className={styles.ctaButton}>
+                <span>Contact Us Now</span>
                 <Image
                   className={styles.img}
                   src="/icons/ctaArrow.svg"
