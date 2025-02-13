@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/themes": "^3.2.0",
+    "bootstrap": "^5.3.3",
+    "isemail": "^3.2.0",
     "next": "15.1.6",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
     "react-countup": "^6.5.3",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.2"
   }
 }

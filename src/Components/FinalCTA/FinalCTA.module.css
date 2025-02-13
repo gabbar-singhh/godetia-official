@@ -1,29 +1,25 @@
 .main {
-    padding: 96px 0;
-    background-color: #eef5f5;
-
-    background: #008080;
-    background: linear-gradient(0deg, #5f9e9e, #EEF5F5);
-
+    margin: 0;
+    padding: 1.8rem;
+    padding-bottom: 4.8rem;
+    background-image: linear-gradient(to bottom, #fdfdfe, #fdfbfd, #fdf9fa, #fef7f6, #fcf6f2);
 }
 
 .container {
-    background-color: #5f9e9e47;
     margin: 0 auto;
     display: flex;
     width: fit-content;
-    height: fit-content;
-    justify-content: center;
+    gap: 1.2rem;
     border-radius: 8px;
-    padding: 48px 72px 0 72px;
+    padding: 48px 64px 0 64px;
+    background: linear-gradient(45deg, #00808078, #fff);
+    border: 1px solid #b0cfce;
 }
 
-.left{
+.left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 1rem;
 }
 
 .left h1 {
@@ -31,7 +27,8 @@
     color: #3c3c3c;
     line-height: 125%;
     font-weight: 600;
-    margin-top: 1.2rem;
+    margin: 0;
+    margin-top: 2.4rem;
 }
 
 .left .godetia {
@@ -43,11 +40,13 @@
 .left p {
     font-size: 17px;
     line-height: 150%;
-    color: #333;
+    color: #fff;
+    color: #636363;
     font-weight: 400;
     letter-spacing: 0.1px;
-    width: 656px;
-    margin-top: 0.5rem;
+    width: 624px;
+    margin: 0;
+    margin-top: 8px;
 }
 
 .left .ctaButton {
@@ -62,7 +61,7 @@
     color: #fff;
     cursor: pointer;
     transition: all 500ms ease-in-out;
-    margin-top: 1.8rem;
+    margin-top: 1.6rem;
     display: inline-flex;
     align-items: center;
     gap: 8px;

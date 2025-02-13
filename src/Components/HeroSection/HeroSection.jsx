@@ -3,51 +3,21 @@ import styles from "./HeroSection.module.css";
 import Image from "next/image";
 
 const HeroSection = () => {
-  const images = [
-    {
-      src: "/assets/gallery1.png",
-      alt: "1",
-      column: 1,
-    },
-    {
-      src: "/assets/gallery2.png",
-      alt: "2",
-      column: 1,
-    },
-    {
-      src: "/assets/gallery3.png",
-      alt: "3",
-      column: 2,
-    },
-    {
-      src: "/assets/gallery4.png",
-      alt: "4",
-      column: 2,
-    },
-  ];
   return (
     <section className={styles.main}>
       <div className={styles.content}>
-        <p className={styles.chip}>
-          <Image
-            src="/icons/checkmark-chip.svg"
-            height={24}
-            width={24}
-            alt="checkmark icon"
-          />
-          Globally Certified
-        </p>
+        <p className={styles.chip}>Our Team @Godetia</p>
         <h1>
-          Your Premier Partner for{" "}
-          <span className={styles.maroon}> First Aid Solutions.</span>
+          Know Our Team at Godetia,
+          <br /> Your Trusted Expert in First Aid Kit Manufacturing.
         </h1>
         <p>
-          With 10+ years of expertise in manufacturing and exporting first aid
-          kits, we offer OEM/ODM solutions tailored to your brand, delivering
-          certified products to keep you safe and prepared.
+          Our expert team designs reliable first aid kits for every need. With
+          precision and care, we ensure you're always prepared for the
+          unexpected.
         </p>
         <div className={styles.ctaButton}>
-          <span>Reach out on WhatsApp</span>
+          <span>Contact Us Now</span>
           <Image
             className={styles.img}
             src="/icons/ctaArrow.svg"
@@ -58,32 +28,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.right}>
-        <div className={styles.galleryGrid}>
-          <div className={styles.galleryGridCol_1}>
-            {images
-              .filter((image) => image.column === 1)
-              .map((image, index) => (
-                <img
-                  key={index}
-                  src={image.src}
-                  alt={image.alt}
-                  className={styles[`img_${image.alt}`]}
-                />
-              ))}
-          </div>
-          <div className={styles.galleryGridCol_2}>
-            {images
-              .filter((image) => image.column === 2)
-              .map((image, index) => (
-                <img
-                  key={index}
-                  src={image.src}
-                  alt={image.alt}
-                  className={styles[`img_${image.alt}`]}
-                />
-              ))}
-          </div>
-        </div>
+        <img src="/assets/aboutus.png" alt="about team" />
       </div>
     </section>
   );

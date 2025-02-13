@@ -10,17 +10,16 @@ const FinalCTA = () => {
         <div className={styles.left}>
           <h1>
             Partner with <span className={styles.godetia}>Godetia</span> for
-            Reliable br First Aid Solutions.
+            Reliable <br /> First Aid Solutions.
           </h1>
 
           <p>
             Ensure safety with our high-quality, customizable first aid kits. We
-            guarantee compliance, durability, and global delivery. Contact us
-            today to discuss your needs!
+            guarantee compliance, durability, and global delivery.
           </p>
 
           <div href={"/"} className={styles.ctaButton}>
-            <span>Text Us On WhatsApp</span>
+            <span>Contact Us</span>
             <Image
               className={styles.img}
               src="/icons/ctaArrow.svg"

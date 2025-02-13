@@ -1,0 +1,70 @@
+.main h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #3c3c3c;
+  line-height: 125%;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.main .godetia {
+  color: var(--primary-color);
+  font-family: "Alkatra", serif;
+  font-size: 34px;
+}
+
+.main .ctaButton {
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  text-align: center;
+  background-color: var(--accent-color);
+  padding: 1rem 1.4rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 1px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: fit-content;
+  margin-bottom: 1.4rem;
+}
+
+.main .ctaButton:hover {
+  color: #fff;
+  background-color: #529d9d;
+}
+
+.main .getStartedBtn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: var(--accent-color);
+  padding: 1rem 1.4rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 1px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1.4rem;
+}
+
+.main .getStartedBtn:hover {
+  color: #fff;
+  background-color: #529d9d;
+}

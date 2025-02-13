@@ -1,0 +1,114 @@
+.main {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 128px;
+    background-image: url('/assets/bg-orange.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    gap: 4.8rem;
+}
+
+.left {
+    margin-top: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.left .chip {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #fdebdc;
+    box-shadow: 0 0 0 3px var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4rem;
+    padding: 4px 12px;
+    display: inline;
+}
+
+.left h1 {
+    font-size: 42px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+.left h1 .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 42px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 5px;
+}
+
+.left p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    width: 556px;
+    margin-top: 1.2rem;
+}
+
+.left .ctaButton {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: var(--primary-color);
+    padding: 1rem 1.4rem;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+    margin-bottom: 4.8rem;
+}
+
+
+.left .ctaButton:hover {
+    color: #fff;
+    background-color: #de7a03a8;
+}
+
+.rightImg {
+    width: 400px;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+}
+
+.rightImg::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 400px;
+    background-image: url("/assets/dots-teal.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

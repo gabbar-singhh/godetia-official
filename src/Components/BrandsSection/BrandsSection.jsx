@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./BrandsSection.module.css";
+import Image from "next/image";
 
 const BrandsSection = () => {
   useEffect(() => {
@@ -42,8 +43,7 @@ const BrandsSection = () => {
   ];
   return (
     <section className={`${styles.main}`}>
-      <p className={styles.chip}>Partnered with the Best</p>
-      <h1>Trusted By Leading Brands</h1>
+      <h1>And Trusted by <span className={styles.godetia}>Global Brands.</span></h1>
       <p>
         Godetia powers the first aid solutions for industry leaders, offering
         globally certified products and unmatched reliability.

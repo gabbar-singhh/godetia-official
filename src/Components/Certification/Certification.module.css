@@ -1,13 +1,11 @@
 .main {
     text-align: center;
-    padding: 96px 0 96px 0;
-    position: relative;
-
+    padding: 84px 0 96px 0;
     background-color: #eef5f5;
 }
 
 .main .chip {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     border-radius: 4rem;
     padding: 4px 12px;
@@ -24,7 +22,7 @@
     color: #3c3c3c;
     line-height: 125%;
     font-weight: 600;
-    margin-top: 1.2rem;
+    margin-top: 1.4rem;
 }
 
 .main h1 .godetia {
@@ -98,33 +96,4 @@
     to {
         transform: translateX(-100%);
     }
-}
-
-
-.ctaButton {
-    font-size: 1rem;
-    font-weight: 600;
-
-    text-align: center;
-    /* background-color: #de7a03; */
-    background-color: var(--accent-color);
-    padding: 1rem 1.8rem;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 14px;
-    border-bottom-left-radius: 1px;
-    color: #fff;
-    cursor: pointer;
-    transition: all 500ms ease-in-out;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 36px;
-}
-
-.ctaButton:hover {
-    color: #fff;
-    background-color: #5f9e9e;
 }
