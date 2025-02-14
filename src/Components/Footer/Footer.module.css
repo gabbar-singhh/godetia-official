@@ -1,0 +1,167 @@
+.footer {
+    background-color: #f08301;
+    padding: 72px 56px;
+    border-top: 1.5px solid #ffffff45;
+}
+
+.logo img {
+    height: 44px;
+}
+
+.footerContent {
+    margin-top: 3.2rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.4rem;
+}
+
+.col1 h4 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 125%;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.col1 ul,
+.col2 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.col1 ul li,
+.col2 ul li {
+    font-size: 18px;
+    color: #fdf3eb;
+    line-height: 125%;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    transition: all 400ms ease-in-out;
+}
+
+.col1 ul li:hover {
+    color: #e3e3e3;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.col2 .box1 h4,
+.col2 .box2 h4,
+.col2 .box3 h4 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 125%;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.col2 .box1 p,
+.col2 .box3 p {
+    font-size: 18px;
+    color: #fdf3eb;
+    line-height: 125%;
+    font-weight: 500;
+    margin-bottom: 16px;
+    transition: all 400ms ease-in-out;
+}
+
+.col2 .box1 p:hover {
+    color: #e3e3e3;
+}
+
+.col3 h4 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 125%;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.col3 p {
+    font-size: 18px;
+    color: #fdf3eb;
+    line-height: 125%;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    transition: all 400ms ease-in-out;
+    width: 400px;
+}
+
+
+.col3 .mapBtn {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fdf3eb;
+    padding: 0.7rem 0.8rem;
+    border-radius: 4px;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 1.4rem;
+}
+
+.col3 .mapBtn:hover {
+    background-color: #ffe3cc;
+}
+
+.right {}
+
+.right h4 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 125%;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.right .whatsappBtn,
+.right .wechatBtn {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fdf3eb;
+    padding: 1.8rem 1.8rem;
+    border-radius: 4px;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border: 1.5px solid #fff;
+}
+
+.right .whatsappBtn:hover,
+.right .wechatBtn:hover {
+    background-color: #ffe3cc;
+}

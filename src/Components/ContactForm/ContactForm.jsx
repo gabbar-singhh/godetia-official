@@ -221,11 +221,11 @@ const ContactForm = () => {
           <ul className={styles.infoUl}>
             <li>
               <img src="/icons/phone.svg" alt="call icon" />
-              <p>+86 13538501419, +86 13538504041</p>
+              <p>+86 13538501419, +86 13809649077</p>
             </li>
             <li>
               <img src="/icons/mail.svg" alt="mail icon" />
-              <p>info@godetia.com</p>
+              <p>sales8@godetiamedical.com</p>
             </li>
             <li>
               <img src="/icons/map.svg" alt="location icon" />
