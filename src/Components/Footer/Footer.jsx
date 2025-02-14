@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer}`}>
       <div className={styles.logo}>
         <img src="/logo/logo_white.png" alt="godetia logo" />
       </div>
