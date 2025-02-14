@@ -120,10 +120,6 @@ const products = () => {
           href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap"
           rel="stylesheet"
         ></link>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap"
-          rel="stylesheet"
-        ></link>
       </Head>
       <section className={styles.main}>
         <Navbar />
