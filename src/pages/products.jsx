@@ -211,6 +211,8 @@ const products = () => {
             showBtnVal={false}
             heading={"Our Most Loved Products"}
           />
+
+          <div className={styles.productsGradient}>
           <div className={styles.survivalKits}>
             <h1>Tactical & Military First Aid Kits</h1>
             <div className={styles.survivalKitsContainer}>
@@ -250,10 +252,7 @@ const products = () => {
           <div className={styles.finalCTA}>
             <div className={styles.finalCTAContainer}>
               <div className={styles.left}>
-                <h1>
-                  Get reliable first aid solutions with{" "}
-                  <span className={styles.godetia}>Godetia.</span>
-                </h1>
+                <h1>Have a product in mind? Get Started <br /> With <span className={styles.godetia}>Godetia.</span></h1>
                 <p>
                   Stay safe with our top-quality, customizable first aid
                   kits—compliant, durable, and delivered worldwide.
@@ -276,6 +275,7 @@ const products = () => {
                 />
               </div>
             </div>
+          </div>
           </div>
         </section>
         <ContactForm />

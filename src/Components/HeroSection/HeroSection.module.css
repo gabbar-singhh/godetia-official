@@ -21,7 +21,7 @@
     font-size: 13px;
     font-weight: 600;
     background-color: #f8dac3;
-    box-shadow: 0 0 0 3px var(--primary-color);
+    box-shadow: 0 0 0 3px #fad6ba;
     color: var(--primary-color);
     border-radius: 4rem;
     padding: 4px 12px;
@@ -52,7 +52,7 @@
 
     text-align: center;
     background-color: #de7a03;
-    padding: 0.7rem 1.1rem;
+    padding: 1rem 1.4rem;
     border-top-left-radius: 14px;
     border-top-right-radius: 1px;
     border-bottom-right-radius: 14px;

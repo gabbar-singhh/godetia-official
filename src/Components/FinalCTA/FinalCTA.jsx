@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./FinalCTA.module.css";
-import Link from "next/link";
 import Image from "next/image";
 
 const FinalCTA = () => {
