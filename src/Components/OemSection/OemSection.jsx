@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./OemSection.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const OemSection = () => {
   return (
@@ -19,7 +20,7 @@ const OemSection = () => {
               and requirements.
             </p>
           </span>
-
+<Link href={'/contact#contactFormId'}>
           <div className={styles.ctaButton}>
             <span>Contact Us Now</span>
             <Image
@@ -28,8 +29,9 @@ const OemSection = () => {
               alt="arrow upright icon"
               height={12}
               width={12}
-            />
+              />
           </div>
+              </Link>
         </div>
         <img
           className={styles.rightImg}

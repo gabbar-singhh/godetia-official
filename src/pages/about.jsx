@@ -8,8 +8,9 @@ import FinalCTA from "@/Components/FinalCTA/FinalCTA";
 import ContactForm from "@/Components/ContactForm/ContactForm";
 import Image from "next/image";
 import Footer from "@/Components/Footer/Footer";
+import Link from "next/link";
 
-const about_us = () => {
+const about = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://player.vimeo.com/api/player.js";
@@ -157,7 +158,7 @@ const about_us = () => {
             </p>
           </div>
         </div>
-        <div className={styles.aboutTeam}>
+        <div className={styles.aboutTeam} id="teamMembersId">
           <h1>
             and meet the talented{" "}
             <span className={styles.godetia}>team at Godetia</span>
@@ -269,16 +270,18 @@ const about_us = () => {
                 Stay safe with our top-quality, customizable first aid
                 kits—compliant, durable, and delivered worldwide.
               </p>
-              <div href={"/"} className={styles.ctaButton}>
-                <span>Contact Us</span>
-                <Image
-                  className={styles.img}
-                  src="/icons/ctaArrow.svg"
-                  alt="arrow upright icon"
-                  height={12}
-                  width={12}
-                />
-              </div>
+              <Link href={"/contact#contactFormId"}>
+                <div href={"/"} className={styles.ctaButton}>
+                  <span>Contact Us</span>
+                  <Image
+                    className={styles.img}
+                    src="/icons/ctaArrow.svg"
+                    alt="arrow upright icon"
+                    height={12}
+                    width={12}
+                  />
+                </div>
+              </Link>
             </div>
             <div className={styles.right}>
               <img src="/assets/final-cta2.png" alt="girl with first aid kit" />
@@ -292,4 +295,4 @@ const about_us = () => {
   );
 };
 
-export default about_us;
+export default about;

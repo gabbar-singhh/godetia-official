@@ -4,6 +4,8 @@ import Head from "next/head";
 import styles from "@/styles/Contact.module.css";
 import Image from "next/image";
 import Footer from "@/Components/Footer/Footer";
+import Link from "next/link";
+import Modal from "@/Components/Modal/Modal";
 
 const contact = () => {
   const countries = [
@@ -204,9 +206,28 @@ const contact = () => {
   ];
 
   const [selectedCountry, setSelectedCountry] = useState("");
+  const [modalVal, setModalVal] = useState(false);
 
   const countryOnChangeHandler = (e) => {
     setSelectedCountry(e.target.value);
+  };
+
+  const modalHandler = () => {
+    console.log("you clicked wechat btn", modalVal);
+    setModalVal((prevState) => !prevState);
+  };
+
+  const closeModalHandler = () => {
+    setModalVal(false);
+  };
+
+  const openWhatsAppHandler = () => {
+    const phoneNumber = "918208896517";
+    const message = encodeURIComponent(
+      "Hello there, I visited your website and I'd be interested in knowing more about Godetia!"
+    );
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -225,6 +246,7 @@ const contact = () => {
       </Head>
       <Navbar />
       <section className={styles.main}>
+        <Modal showModalVal={modalVal} closeModalHandler={closeModalHandler} />
         <section className={styles.heroSection}>
           <div className={styles.content}>
             <p className={styles.chip}>Connect With Godetia</p>
@@ -235,7 +257,7 @@ const contact = () => {
               safety kits.
             </p>
             <div className={styles.ctaButton}>
-              <div className={styles.whatsappBtn}>
+              <div className={styles.whatsappBtn} onClick={openWhatsAppHandler}>
                 <span>React out on WhatsApp</span>
                 <Image
                   className={styles.img}
@@ -245,7 +267,7 @@ const contact = () => {
                   width={12}
                 />
               </div>
-              <div className={styles.wechatBtn}>
+              <div className={styles.wechatBtn} onClick={modalHandler}>
                 <span>Or Connect on WeChat</span>
               </div>
             </div>
@@ -255,7 +277,7 @@ const contact = () => {
           </div>
         </section>
 
-        <section className={styles.contactForm}>
+        <section className={styles.contactForm} id="contactFormId">
           <div className={styles.container}>
             <div className={styles.left}>
               <h1>
@@ -393,9 +415,9 @@ const contact = () => {
           </div>
         </section>
       </section>
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 };
 
 export default contact;

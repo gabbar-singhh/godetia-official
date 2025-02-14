@@ -20,7 +20,7 @@ const Certification = () => {
   }, []);
 
   return (
-    <section className={styles.main}>
+    <section className={styles.main} id="certificateId">
       <p className={styles.chip}>Approved & Trusted Everywhere</p>
       <h1>
         <span className={styles.godetia}>Godetia</span> is Medically Certified
