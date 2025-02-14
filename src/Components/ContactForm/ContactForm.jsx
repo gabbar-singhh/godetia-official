@@ -224,11 +224,11 @@ const ContactForm = () => {
               <p>+86 13538501419, +86 13538504041</p>
             </li>
             <li>
-              <img src="/icons/li-mail.svg" alt="mail icon" />
+              <img src="/icons/mail.svg" alt="mail icon" />
               <p>info@godetia.com</p>
             </li>
             <li>
-              <img src="/icons/map-pin.svg" alt="map pin" />
+              <img src="/icons/map.svg" alt="location icon" />
               <p>
                 Dongguan Godetias Medical Products Tech Co. Ltd, 4th Floor,
                 Building 1, Xinhongyuan Ind. Park, Everbright Rd, Dongcheng,
