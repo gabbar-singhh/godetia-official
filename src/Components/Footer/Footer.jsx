@@ -82,6 +82,7 @@ const Footer = () => {
 
         <div className={styles.right}>
           <h4>let's get connected: </h4>
+
           <div className={styles.whatsappBtn}>
             <span>WhatsApp</span>
             <Image
