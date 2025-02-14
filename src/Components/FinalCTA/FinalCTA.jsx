@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./FinalCTA.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const FinalCTA = () => {
   return (
@@ -16,17 +17,18 @@ const FinalCTA = () => {
             Ensure safety with our high-quality, customizable first aid kits. We
             guarantee compliance, durability, and global delivery.
           </p>
-
-          <div href={"/"} className={styles.ctaButton}>
-            <span>Contact Us</span>
-            <Image
-              className={styles.img}
-              src="/icons/ctaArrow.svg"
-              alt="arrow upright icon"
-              height={12}
-              width={12}
-            />
-          </div>
+          <Link href={"/contact#contactFormId"}>
+            <div href={"/"} className={styles.ctaButton}>
+              <span>Contact Us</span>
+              <Image
+                className={styles.img}
+                src="/icons/ctaArrow.svg"
+                alt="arrow upright icon"
+                height={12}
+                width={12}
+              />
+            </div>
+          </Link>
         </div>
         <span className={styles.right}>
           <img src="/assets/final-cta.png" alt="girl with first aid kit" />

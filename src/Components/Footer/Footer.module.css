@@ -146,7 +146,7 @@
 .right .whatsappBtn,
 .right .wechatBtn {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     background-color: #fdf3eb;
     padding: 1.8rem 1.8rem;
     border-radius: 4px;
@@ -164,4 +164,16 @@
 .right .whatsappBtn:hover,
 .right .wechatBtn:hover {
     background-color: #ffe3cc;
+}
+
+.footerFooter{
+    text-align: center;
+    background-color: teal;
+
+    font-size: 15px;
+    color: #fdf3eb;
+    line-height: 125%;
+    font-weight: 500;
+    transition: all 400ms ease-in-out;
+    padding: 8px;
 }

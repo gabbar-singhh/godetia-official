@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ProductCategory.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProductCategory = () => {
   return (
@@ -23,6 +24,7 @@ const ProductCategory = () => {
                   supplies for quick treatment of injuries.
                 </p>
               </span>
+              <Link href={'/products#portableKitsId'}>
               <div className={styles.learnMore}>
                 learn more{" "}
                 <Image
@@ -30,8 +32,9 @@ const ProductCategory = () => {
                   alt="arrow upright icon"
                   height={12}
                   width={12}
-                />
+                  />
               </div>
+                  </Link>
             </div>
             <img
               className={styles.img}
@@ -51,6 +54,7 @@ const ProductCategory = () => {
                   tourniquets, pressure bandages, hemostatic gauze etc.
                 </p>
               </span>
+              <Link href={'/products#survivalKitsId'}>
               <div className={styles.learnMore}>
                 learn more{" "}
                 <Image
@@ -60,6 +64,7 @@ const ProductCategory = () => {
                   width={12}
                 />
               </div>
+              </Link>
             </div>
             <img
               className={styles.img}
@@ -79,6 +84,7 @@ const ProductCategory = () => {
                   roadside injuries, accidents, and emergency situations.
                 </p>
               </span>
+              <Link href={'/products#portableKitsId'}>
               <div className={styles.learnMore}>
                 learn more{" "}
                 <Image
@@ -88,6 +94,7 @@ const ProductCategory = () => {
                   width={12}
                 />
               </div>
+              </Link>
             </div>
             <img
               className={styles.img}
@@ -107,6 +114,7 @@ const ProductCategory = () => {
                   wounds etc.
                 </p>
               </span>
+              <Link href={'/products#petKitsId'}>
               <div className={styles.learnMore}>
                 learn more{" "}
                 <Image
@@ -116,6 +124,7 @@ const ProductCategory = () => {
                   width={12}
                 />
               </div>
+              </Link>
             </div>
             <img
               className={styles.img}
@@ -135,6 +144,7 @@ const ProductCategory = () => {
                   injuries, cuts, burns etc.
                 </p>
               </span>
+              <Link href={'/products#portableKitsId'}>
               <div className={styles.learnMore}>
                 learn more{" "}
                 <Image
@@ -144,6 +154,7 @@ const ProductCategory = () => {
                   width={12}
                 />
               </div>
+              </Link>
             </div>
             <img
               className={styles.img}

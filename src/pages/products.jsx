@@ -8,6 +8,7 @@ import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactForm from "@/Components/ContactForm/ContactForm";
 import Footer from "@/Components/Footer/Footer";
+import Link from "next/link";
 
 const products = () => {
   const survivalKitsData = [
@@ -107,6 +108,15 @@ const products = () => {
         "Veternary Emergency Compact Pet First Aid Kit | Plus Eco Wholesale Eva Bag",
     },
   ];
+
+  const openWhatsAppHandler = () => {
+    const phoneNumber = "918208896517";
+    const message = encodeURIComponent(
+      "Hello there, I visited your website and I'd be interested in knowing more about Godetia!"
+    );
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <>
       <Head>
@@ -133,7 +143,7 @@ const products = () => {
             />
 
             <Carousel.Caption>
-              <div className={styles.getStartedBtn}>
+              <div className={styles.getStartedBtn} onClick={openWhatsAppHandler}>
                 <span>Reach out on WhatsApp</span>
                 <Image
                   className={styles.img}
@@ -153,6 +163,7 @@ const products = () => {
             />
 
             <Carousel.Caption>
+              <Link href={'/contact#contactFormId'}>
               <div className={styles.getStartedBtn}>
                 <span>Contact Us Now</span>
                 <Image
@@ -161,8 +172,9 @@ const products = () => {
                   alt="arrow upright icon"
                   height={12}
                   width={12}
-                />
+                  />
               </div>
+                  </Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -173,6 +185,7 @@ const products = () => {
             />
 
             <Carousel.Caption>
+            <Link href={'/contact#contactFormId'}>
               <div className={styles.ctaButton}>
                 <span>Contact Us Now</span>
                 <Image
@@ -183,6 +196,7 @@ const products = () => {
                   width={12}
                 />
               </div>
+              </Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -193,6 +207,7 @@ const products = () => {
             />
 
             <Carousel.Caption>
+            <Link href={'/contact#contactFormId'}>
               <div className={styles.getStartedBtn}>
                 <span>Contact Us Now</span>
                 <Image
@@ -203,6 +218,7 @@ const products = () => {
                   width={12}
                 />
               </div>
+              </Link>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -213,7 +229,7 @@ const products = () => {
             heading={"Our Most Loved Products"}
           />
 
-          <div className={styles.productsGradient}>
+          <div className={styles.productsGradient} id="survivalKitsId">
             <div className={styles.survivalKits}>
               <h1>Tactical & Military First Aid Kits</h1>
               <div className={styles.survivalKitsContainer}>
@@ -226,7 +242,7 @@ const products = () => {
               </div>
             </div>
 
-            <div className={styles.portableKits}>
+            <div className={styles.portableKits} id="portableKitsId">
               <h1>Car/ Home / Indoor First Aid Kits</h1>
               <div className={styles.portableKitsContainer}>
                 {portableKitsData.map((kit, index) => (
@@ -238,7 +254,7 @@ const products = () => {
               </div>
             </div>
 
-            <div className={styles.portableKits}>
+            <div className={styles.portableKits} id="petKitsId">
               <h1>Pet Emergency Aid Kits</h1>
               <div className={styles.portableKitsContainer}>
                 {petKitsData.map((kit, index) => (
@@ -261,6 +277,7 @@ const products = () => {
                     Stay safe with our top-quality, customizable first aid
                     kits—compliant, durable, and delivered worldwide.
                   </p>
+                  <Link href={'/contact#contactFormId'}>
                   <div href={"/"} className={styles.ctaButton}>
                     <span>Contact Us</span>
                     <Image
@@ -271,6 +288,7 @@ const products = () => {
                       width={12}
                     />
                   </div>
+                  </Link>
                 </div>
                 <div className={styles.right}>
                   <img

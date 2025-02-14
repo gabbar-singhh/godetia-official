@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ChooseUs.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const ChooseUs = () => {
   return (
@@ -40,6 +41,7 @@ const ChooseUs = () => {
           </li>
         </ul>
 
+<Link href={'/contact#contactFormId'}>
         <div className={styles.ctaButton}>
           <span>Get Started Now</span>
           <Image
@@ -48,8 +50,9 @@ const ChooseUs = () => {
             alt="arrow upright icon"
             height={12}
             width={12}
-          />
+            />
         </div>
+            </Link>
       </section>
     </section>
   );

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Poppins } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/Components/Navbar/Navbar";
@@ -53,8 +52,8 @@ export default function Home() {
         <BrandsSection />
         <FinalCTA />
         <ContactForm />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

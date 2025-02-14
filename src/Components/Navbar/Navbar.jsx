@@ -40,7 +40,7 @@ const Navbar = () => {
           <Link href={"/products"}>
             <li className={`${styles.nav_li} underlineEff`}>Medical Kits</li>
           </Link>{" "}
-          <Link href={"/about_us"}>
+          <Link href={"/about"}>
             <li className={`${styles.nav_li} underlineEff`}>about us</li>
           </Link>{" "}
           <Link href={"/contact"}>
