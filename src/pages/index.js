@@ -39,18 +39,21 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-        <Navbar />
+      <Navbar />
       <div className={`${styles.page} ${poppins.className}`}>
         <HeroSectionNew />
         <ProductCategory />
         <OemSection />
-        <FeaturedProducts showBtnVal={true} heading="Our Best Selling Products" />
+        <FeaturedProducts
+          showBtnVal={true}
+          heading="Our Best Selling Products"
+        />
         <ChooseUs />
         <Certification />
         <BrandsSection />
         <FinalCTA />
         <ContactForm />
-<Footer/>
+        <Footer />
       </div>
     </>
   );
