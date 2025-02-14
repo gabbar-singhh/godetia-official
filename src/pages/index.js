@@ -13,6 +13,7 @@ import ProductCategory from "@/Components/ProductCategory/ProductCategory";
 import OemSection from "@/Components/OemSection/OemSection";
 import ContactForm from "@/Components/ContactForm/ContactForm";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "@/Components/Footer/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -49,7 +50,7 @@ export default function Home() {
         <BrandsSection />
         <FinalCTA />
         <ContactForm />
-        {/* footer */}
+<Footer/>
       </div>
     </>
   );

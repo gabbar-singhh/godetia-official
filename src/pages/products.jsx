@@ -7,6 +7,7 @@ import { Carousel } from "react-bootstrap";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactForm from "@/Components/ContactForm/ContactForm";
+import Footer from "@/Components/Footer/Footer";
 
 const products = () => {
   const survivalKitsData = [
@@ -119,6 +120,10 @@ const products = () => {
           href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <section className={styles.main}>
         <Navbar />
@@ -213,72 +218,76 @@ const products = () => {
           />
 
           <div className={styles.productsGradient}>
-          <div className={styles.survivalKits}>
-            <h1>Tactical & Military First Aid Kits</h1>
-            <div className={styles.survivalKitsContainer}>
-              {survivalKitsData.map((kit, index) => (
-                <div key={index} className={styles.card}>
-                  <img src={kit.img} alt={kit.title} />
-                  <h2>{kit.title}</h2>
-                </div>
-              ))}
+            <div className={styles.survivalKits}>
+              <h1>Tactical & Military First Aid Kits</h1>
+              <div className={styles.survivalKitsContainer}>
+                {survivalKitsData.map((kit, index) => (
+                  <div key={index} className={styles.card}>
+                    <img src={kit.img} alt={kit.title} />
+                    <h2>{kit.title}</h2>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
 
-          <div className={styles.portableKits}>
-            <h1>Car/ Home / Indoor First Aid Kits</h1>
-            <div className={styles.portableKitsContainer}>
-              {portableKitsData.map((kit, index) => (
-                <div key={index} className={styles.card}>
-                  <img src={kit.img} alt={kit.title} />
-                  <h2>{kit.title}</h2>
-                </div>
-              ))}
+            <div className={styles.portableKits}>
+              <h1>Car/ Home / Indoor First Aid Kits</h1>
+              <div className={styles.portableKitsContainer}>
+                {portableKitsData.map((kit, index) => (
+                  <div key={index} className={styles.card}>
+                    <img src={kit.img} alt={kit.title} />
+                    <h2>{kit.title}</h2>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
 
-          <div className={styles.portableKits}>
-            <h1>Pet Emergency Aid Kits</h1>
-            <div className={styles.portableKitsContainer}>
-              {petKitsData.map((kit, index) => (
-                <div key={index} className={styles.card}>
-                  <img src={kit.img} alt={kit.title} />
-                  <h2>{kit.title}</h2>
-                </div>
-              ))}
+            <div className={styles.portableKits}>
+              <h1>Pet Emergency Aid Kits</h1>
+              <div className={styles.portableKitsContainer}>
+                {petKitsData.map((kit, index) => (
+                  <div key={index} className={styles.card}>
+                    <img src={kit.img} alt={kit.title} />
+                    <h2>{kit.title}</h2>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
 
-          <div className={styles.finalCTA}>
-            <div className={styles.finalCTAContainer}>
-              <div className={styles.left}>
-                <h1>Have a product in mind? Get Started <br /> With <span className={styles.godetia}>Godetia.</span></h1>
-                <p>
-                  Stay safe with our top-quality, customizable first aid
-                  kits—compliant, durable, and delivered worldwide.
-                </p>
-                <div href={"/"} className={styles.ctaButton}>
-                  <span>Contact Us</span>
-                  <Image
-                    className={styles.img}
-                    src="/icons/ctaArrow.svg"
-                    alt="arrow upright icon"
-                    height={12}
-                    width={12}
+            <div className={styles.finalCTA}>
+              <div className={styles.finalCTAContainer}>
+                <div className={styles.left}>
+                  <h1>
+                    Have a product in mind? Get Started <br /> With{" "}
+                    <span className={styles.godetia}>Godetia.</span>
+                  </h1>
+                  <p>
+                    Stay safe with our top-quality, customizable first aid
+                    kits—compliant, durable, and delivered worldwide.
+                  </p>
+                  <div href={"/"} className={styles.ctaButton}>
+                    <span>Contact Us</span>
+                    <Image
+                      className={styles.img}
+                      src="/icons/ctaArrow.svg"
+                      alt="arrow upright icon"
+                      height={12}
+                      width={12}
+                    />
+                  </div>
+                </div>
+                <div className={styles.right}>
+                  <img
+                    src="/assets/final-cta2.png"
+                    alt="girl with first aid kit"
                   />
                 </div>
               </div>
-              <div className={styles.right}>
-                <img
-                  src="/assets/final-cta2.png"
-                  alt="girl with first aid kit"
-                />
-              </div>
             </div>
-          </div>
           </div>
         </section>
         <ContactForm />
+        <Footer />
       </section>
     </>
   );

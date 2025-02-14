@@ -3,6 +3,7 @@ import Navbar from "@/Components/Navbar/Navbar";
 import Head from "next/head";
 import styles from "@/styles/Contact.module.css";
 import Image from "next/image";
+import Footer from "@/Components/Footer/Footer";
 
 const contact = () => {
   const countries = [
@@ -269,11 +270,11 @@ const contact = () => {
               <ul className={styles.infoUl}>
                 <li>
                   <img src="/icons/phone-saffron.svg" alt="call icon" />
-                  <p>+86 13538501419, +86 13538504041</p>
+                  <p>+86 13538501419, +86 13809649077</p>
                 </li>
                 <li>
                   <img src="/icons/mail-saffron.svg" alt="mail icon" />
-                  <p>info@godetia.com</p>
+                  <p>sales8@godetiamedical.com</p>
                 </li>
                 <li>
                   <img src="/icons/map-saffron.svg" alt="location icon" />
@@ -392,8 +393,9 @@ const contact = () => {
           </div>
         </section>
       </section>
+      <Footer/>
     </>
-  );
+  )
 };
 
 export default contact;

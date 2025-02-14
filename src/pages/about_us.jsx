@@ -7,6 +7,7 @@ import Certification from "@/Components/Certification/Certification";
 import FinalCTA from "@/Components/FinalCTA/FinalCTA";
 import ContactForm from "@/Components/ContactForm/ContactForm";
 import Image from "next/image";
+import Footer from "@/Components/Footer/Footer";
 
 const about_us = () => {
   useEffect(() => {
@@ -285,6 +286,7 @@ const about_us = () => {
           </div>
         </div>
         <ContactForm />
+        <Footer />
       </section>
     </>
   );
