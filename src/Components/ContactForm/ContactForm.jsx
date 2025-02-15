@@ -246,7 +246,7 @@ const ContactForm = () => {
             <div className={styles.row1}>
               <input
                 type="text"
-                placeholder="Full Name"
+                placeholder="Full Name *"
                 className={styles.inputName}
               />
               <input
@@ -260,7 +260,7 @@ const ContactForm = () => {
               <span className={styles.spanMailInput}>
                 <input
                   type="email"
-                  placeholder="Your Email"
+                  placeholder="Your Email *"
                   className={styles.inputName}
                 />
               </span>
@@ -274,7 +274,7 @@ const ContactForm = () => {
                 required
               >
                 <option value="" disabled hidden>
-                  Select a country
+                  Select a country *
                 </option>
                 {countries.map((country) => (
                   <option key={country} value={country}>
@@ -282,7 +282,7 @@ const ContactForm = () => {
                   </option>
                 ))}
               </select>
-              <input type="number" placeholder="WhatsApp Number" className={styles.inputSelect} />
+              <input type="number" placeholder="WhatsApp Number *" className={styles.inputSelect} />
             </div>
 
             <div className={styles.row4}>
