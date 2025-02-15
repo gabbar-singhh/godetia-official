@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Certification.module.css";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 const Certification = () => {
   const certificates = [];
@@ -21,22 +22,36 @@ const Certification = () => {
 
   return (
     <section className={styles.main} id="certificateId">
-      <p className={styles.chip}>Approved & Trusted Everywhere</p>
-      <h1>
-        <span className={styles.godetia}>Godetia</span> is Medically Certified
-      </h1>
-      <p>
-        Internationally approved and medically safe, we take pride in providing
-        top quality medical supplies—because your safety matters most.
-      </p>
+      <Fade triggerOnce>
+        <p className={styles.chip}>Approved & Trusted Everywhere</p>
+      </Fade>
+      <Fade triggerOnce>
+        <h1>
+          <span className={styles.godetia}>Godetia</span> is Medically Certified
+        </h1>
+      </Fade>
+      <Fade triggerOnce>
+        <p>
+          Internationally approved and medically safe, we take pride in
+          providing top quality medical supplies—because your safety matters
+          most.
+        </p>
+      </Fade>
 
-      <div className={styles.certificate}>
-        <div className={styles.certificateSlide}>
-          {certificates.map((src, index) => (
-            <img key={index} src={src} width={250} alt={`brand logo ${index + 1}`} />
-          ))}
+      <Fade triggerOnce>
+        <div className={styles.certificate}>
+          <div className={styles.certificateSlide}>
+            {certificates.map((src, index) => (
+              <img
+                key={index}
+                src={src}
+                width={250}
+                alt={`brand logo ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Fade>
     </section>
   );
 };

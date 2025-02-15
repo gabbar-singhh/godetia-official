@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./BrandsSection.module.css";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 const BrandsSection = () => {
   useEffect(() => {
@@ -43,22 +44,30 @@ const BrandsSection = () => {
   ];
   return (
     <section className={`${styles.main}`}>
-      <h1>And Trusted by <span className={styles.godetia}>Global Brands.</span></h1>
-      <p>
-        Godetia powers the first aid solutions for industry leaders, offering
-        globally certified products and unmatched reliability.
-      </p>
-      <div className={styles.logos}>
-        <div className={styles.logosSlide}>
-          {logos.map((logo, index) => (
-            <img
-              key={index}
-              src={`/logo/brands-logo/${logo}.webp`}
-              alt={`${logo} logo`}
-            />
-          ))}
+      <Fade triggerOnce>
+        <h1>
+          And Trusted by <span className={styles.godetia}>Global Brands.</span>
+        </h1>
+      </Fade>
+      <Fade triggerOnce>
+        <p>
+          Godetia powers the first aid solutions for industry leaders, offering
+          globally certified products and unmatched reliability.
+        </p>
+      </Fade>
+      <Fade triggerOnce>
+        <div className={styles.logos}>
+          <div className={styles.logosSlide}>
+            {logos.map((logo, index) => (
+              <img
+                key={index}
+                src={`/logo/brands-logo/${logo}.webp`}
+                alt={`${logo} logo`}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Fade>
     </section>
   );
 };
