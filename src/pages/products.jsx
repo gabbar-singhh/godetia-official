@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ContactForm from "@/Components/ContactForm/ContactForm";
 import Footer from "@/Components/Footer/Footer";
 import Link from "next/link";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const products = () => {
   const survivalKitsData = [
@@ -234,64 +235,82 @@ const products = () => {
 
           <div className={styles.productsGradient} id="survivalKitsId">
             <div className={styles.survivalKits}>
-              <h1>Tactical & Military First Aid Kits</h1>
+              <Fade triggerOnce>
+                <h1>Tactical & Military First Aid Kits</h1>
+              </Fade>
               <div className={styles.survivalKitsContainer}>
-                {survivalKitsData.map((kit, index) => (
-                  <div key={index} className={styles.card}>
-                    <img src={kit.img} alt={kit.title} />
-                    <h2>{kit.title}</h2>
-                  </div>
-                ))}
+                <Fade cascade damping={0.1} triggerOnce>
+                  {survivalKitsData.map((kit, index) => (
+                    <div key={index} className={styles.card}>
+                      <img src={kit.img} alt={kit.title} />
+                      <h2>{kit.title}</h2>
+                    </div>
+                  ))}
+                </Fade>
               </div>
             </div>
 
             <div className={styles.portableKits} id="portableKitsId">
-              <h1>Car/ Home / Indoor First Aid Kits</h1>
+              <Fade triggerOnce>
+                <h1>Car/ Home / Indoor First Aid Kits</h1>
+              </Fade>
               <div className={styles.portableKitsContainer}>
-                {portableKitsData.map((kit, index) => (
-                  <div key={index} className={styles.card}>
-                    <img src={kit.img} alt={kit.title} />
-                    <h2>{kit.title}</h2>
-                  </div>
-                ))}
+                <Fade cascade damping={0.1} triggerOnce>
+                  {portableKitsData.map((kit, index) => (
+                    <div key={index} className={styles.card}>
+                      <img src={kit.img} alt={kit.title} />
+                      <h2>{kit.title}</h2>
+                    </div>
+                  ))}
+                </Fade>
               </div>
             </div>
 
             <div className={styles.portableKits} id="petKitsId">
-              <h1>Pet Emergency Aid Kits</h1>
+              <Fade triggerOnce>
+                <h1>Pet Emergency Aid Kits</h1>
+              </Fade>
               <div className={styles.portableKitsContainer}>
-                {petKitsData.map((kit, index) => (
-                  <div key={index} className={styles.card}>
-                    <img src={kit.img} alt={kit.title} />
-                    <h2>{kit.title}</h2>
-                  </div>
-                ))}
+                <Fade cascade damping={0.1} triggerOnce>
+                  {petKitsData.map((kit, index) => (
+                    <div key={index} className={styles.card}>
+                      <img src={kit.img} alt={kit.title} />
+                      <h2>{kit.title}</h2>
+                    </div>
+                  ))}
+                </Fade>
               </div>
             </div>
 
             <div className={styles.finalCTA}>
               <div className={styles.finalCTAContainer}>
                 <div className={styles.left}>
-                  <h1>
-                    Have a product in mind? Get Started <br /> With{" "}
-                    <span className={styles.godetia}>Godetia.</span>
-                  </h1>
-                  <p>
-                    Stay safe with our top-quality, customizable first aid
-                    kits—compliant, durable, and delivered worldwide.
-                  </p>
-                  <Link href={"/contact#contactFormId"}>
-                    <div href={"/"} className={styles.ctaButton}>
-                      <span>Contact Us</span>
-                      <Image
-                        className={styles.img}
-                        src="/icons/ctaArrow.svg"
-                        alt="arrow upright icon"
-                        height={12}
-                        width={12}
-                      />
-                    </div>
-                  </Link>
+                  <Fade triggerOnce>
+                    <h1>
+                      Have a product in mind? Get Started <br /> With{" "}
+                      <span className={styles.godetia}>Godetia.</span>
+                    </h1>
+                  </Fade>
+                  <Fade triggerOnce>
+                    <p>
+                      Stay safe with our top-quality, customizable first aid
+                      kits—compliant, durable, and delivered worldwide.
+                    </p>
+                  </Fade>
+                  <Fade triggerOnce>
+                    <Link href={"/contact#contactFormId"}>
+                      <div href={"/"} className={styles.ctaButton}>
+                        <span>Contact Us</span>
+                        <Image
+                          className={styles.img}
+                          src="/icons/ctaArrow.svg"
+                          alt="arrow upright icon"
+                          height={12}
+                          width={12}
+                        />
+                      </div>
+                    </Link>
+                  </Fade>
                 </div>
                 <div className={styles.right}>
                   <img

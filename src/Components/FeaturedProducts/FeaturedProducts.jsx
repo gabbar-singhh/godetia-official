@@ -1,32 +1,36 @@
 import React from "react";
 import styles from "./FeaturedProducts.module.css";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
 
 const FeaturedProducts = ({ heading, showBtnVal }) => {
   return (
     <section className={styles.main}>
       <div className={styles.header}>
-        <h2>{heading}</h2>
+        <Fade triggerOnce>
+          <h2>{heading}</h2>
 
-        {showBtnVal ? (
-          <Link href={'/products'}>
-            <div className={styles.viewAll}>
-              View More{" "}
-              <img
-                src="/icons/arrow_up_right.svg"
-                className={styles.img}
-                alt="arrow upright icon"
-                height={12}
-                width={12}
-              />
-            </div>
-          </Link>
-        ) : (
-          <></>
-        )}
+          {showBtnVal ? (
+            <Link href={"/products"}>
+              <div className={styles.viewAll}>
+                View More{" "}
+                <img
+                  src="/icons/arrow_up_right.svg"
+                  className={styles.img}
+                  alt="arrow upright icon"
+                  height={12}
+                  width={12}
+                />
+              </div>
+            </Link>
+          ) : (
+            <></>
+          )}
+        </Fade>
       </div>
 
       <div className={styles.container}>
+      <Fade cascade damping={0.1} triggerOnce>
         <div className={styles.card}>
           <img src="/assets/products/featured-1.webp" alt="" />
           <h2>
@@ -70,6 +74,7 @@ const FeaturedProducts = ({ heading, showBtnVal }) => {
           <img src="/assets/products/featured-7.webp" alt="" />
           <h2>Pet's Emergency First Aid Kit</h2>
         </div>
+        </Fade>
       </div>
     </section>
   );

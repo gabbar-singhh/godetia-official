@@ -2,14 +2,17 @@ import React from "react";
 import styles from "./ProductCategory.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
 
 const ProductCategory = () => {
   return (
     <section className={styles.main}>
+      <Fade triggerOnce>
       <h1>
         Explore Our First Aid Kits{" "}
         <span className={styles.godetia}>by Categories.</span>
       </h1>
+      </Fade>
 
       <div className={styles.container}>
         <div className={styles.top}>
