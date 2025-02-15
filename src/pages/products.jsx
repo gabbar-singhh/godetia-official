@@ -40,19 +40,24 @@ const products = () => {
     {
       img: "/assets/products/gs08.webp",
       title:
-        "GS-08 Mini Premium Survival First Aid | Hygiene Camping Gear Kit Tool | With Tactical Bracelet",
+        "GS-08 Mini Premium Survival First Aid | Hygiene Camping Gear Kit Tool | Tactical Bracelet",
     },
     {
       img: "/assets/products/gs09.webp",
       title:
         "GS-09 Mini Special IFAK First Aid Emergency Kit | Pouch Multi-Purpose Bag",
     },
+    {
+      img: "/assets/products/gs10.webp",
+      title:
+        "Professional-Grade First Aid Kit with Tourniquet: Tactical Gear for Bleeding Control",
+    },
   ];
 
   const portableKitsData = [
     {
       img: "/assets/products/gf01.webp",
-      title: "GF-01 First Aid Kit Home | Emergency Kit Home Supplies",
+      title: "GF-01 First Aid Kit Home | Personal Emergency Kit for Home and School",
     },
     {
       img: "/assets/products/gf02.webp",
@@ -78,6 +83,16 @@ const products = () => {
       title:
         "GF-09 Medical Kit | Zipper Customiable First Aid Kit Empty Bag Set With Cross Patch",
     },
+    {
+      img: "/assets/products/gf10.webp",
+      title:
+        "Wholesale Portable Premium Triangular Roadside Nylon for Car Emergencies",
+    },
+    {
+      img: "/assets/products/gf11.webp",
+      title:
+        "400 Piece Red Large Survival Medical First Aid Kit with Secure Seal",
+    },
   ];
 
   const petKitsData = [
@@ -96,7 +111,7 @@ const products = () => {
     {
       img: "/assets/products/pet-4.webp",
       title:
-        "Portable First Aid Kit Medical Emergency Bag | CE Approved For Pet Owners",
+        "Portable First Aid Kit Bag | CE Approved For Pet Owners",
     },
     {
       img: "/assets/products/pet-5.webp",
@@ -107,6 +122,11 @@ const products = () => {
       img: "/assets/products/pet-6.webp",
       title:
         "Veternary Emergency Compact Pet First Aid Kit | Plus Eco Wholesale Eva Bag",
+    },
+    {
+      img: "/assets/products/pet-7.webp",
+      title:
+        "Small Dog First Aid Kit |  first aid treatment of small dogs in cases of emergencies",
     },
   ];
 
