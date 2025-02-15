@@ -170,7 +170,7 @@ const about = () => {
             <div className={styles.row1}>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/1.png"
+                  src="/assets/team/1.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -181,7 +181,7 @@ const about = () => {
             <div className={styles.row2}>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/2.png"
+                  src="/assets/team/2.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -190,7 +190,7 @@ const about = () => {
               </div>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/3.png"
+                  src="/assets/team/3.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -199,7 +199,7 @@ const about = () => {
               </div>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/4.png"
+                  src="/assets/team/4.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -210,7 +210,7 @@ const about = () => {
             <div className={styles.row3}>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/5.png"
+                  src="/assets/team/5.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -219,7 +219,7 @@ const about = () => {
               </div>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/6.png"
+                  src="/assets/team/6.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -228,7 +228,7 @@ const about = () => {
               </div>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/7.png"
+                  src="/assets/team/7.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -239,7 +239,7 @@ const about = () => {
             <div className={styles.row4}>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/8.png"
+                  src="/assets/team/8.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -248,7 +248,7 @@ const about = () => {
               </div>
               <div className={styles.teamCard}>
                 <img
-                  src="/assets/team/9.png"
+                  src="/assets/team/9.webp"
                   className={styles.teamImg}
                   alt=""
                 />
@@ -284,7 +284,7 @@ const about = () => {
               </Link>
             </div>
             <div className={styles.right}>
-              <img src="/assets/final-cta2.png" alt="girl with first aid kit" />
+              <img src="/assets/final-cta2.webp" alt="girl with first aid kit" />
             </div>
           </div>
         </div>

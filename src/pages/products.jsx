@@ -13,36 +13,36 @@ import Link from "next/link";
 const products = () => {
   const survivalKitsData = [
     {
-      img: "/assets/gs01.png",
+      img: "/assets/products/gs01.webp",
       title:
         "GS-01 IFAK Emergency Tactical First Aid | Civil Defence War Preparation",
     },
     {
-      img: "/assets/gs02.png",
+      img: "/assets/products/gs02.webp",
       title:
         "GS-02 Tactical Pouch Bag Emergency First Aid Bag | Hiking | Climbing",
     },
     {
-      img: "/assets/gs03.png",
+      img: "/assets/products/gs03.webp",
       title: "GS-03 Tactical Outdoor Emergency Kit | Camping | Mountain",
     },
     {
-      img: "/assets/gs05.png",
+      img: "/assets/products/gs05.webp",
       title:
         "GS-05 Advanced Military Trauma Suit: CAT Tourniquet | Israeli bandage | Trauma Scissor",
     },
     {
-      img: "/assets/gs07.png",
+      img: "/assets/products/gs07.webp",
       title:
         "GS-07 Tactical Waist Bags | EDC Utility | 4 Hooks Backpack | Extra Bags for Outdoor",
     },
     {
-      img: "/assets/gs08.png",
+      img: "/assets/products/gs08.webp",
       title:
         "GS-08 Mini Premium Survival First Aid | Hygiene Camping Gear Kit Tool | With Tactical Bracelet",
     },
     {
-      img: "/assets/gs09.png",
+      img: "/assets/products/gs09.webp",
       title:
         "GS-09 Mini Special IFAK First Aid Emergency Kit | Pouch Multi-Purpose Bag",
     },
@@ -50,30 +50,30 @@ const products = () => {
 
   const portableKitsData = [
     {
-      img: "/assets/gf01.png",
+      img: "/assets/products/gf01.webp",
       title: "GF-01 First Aid Kit Home | Emergency Kit Home Supplies",
     },
     {
-      img: "/assets/gf02.png",
+      img: "/assets/products/gf02.webp",
       title:
         "GF-02 Mini First Aid Kit Small | Bag Includes Bandage, Tablets, Cotton Swabs",
     },
     {
-      img: "/assets/gf04.png",
+      img: "/assets/products/gf04.webp",
       title: "GF-04 Small First Aid Kit | Indoor Sports Emergency Medical Kit",
     },
     {
-      img: "/assets/gf06.png",
+      img: "/assets/products/gf06.webp",
       title:
         "Medi CE Approved Medical Supplies Small Size | Pocket Mini Home First Aid Kit",
     },
     {
-      img: "/assets/gf08.png",
+      img: "/assets/products/gf08.webp",
       title:
         "GF-08 Compact first aid kit | 230 pieces developed for family emergencies",
     },
     {
-      img: "/assets/gf09.png",
+      img: "/assets/products/gf09.webp",
       title:
         "GF-09 Medical Kit | Zipper Customiable First Aid Kit Empty Bag Set With Cross Patch",
     },
@@ -81,29 +81,29 @@ const products = () => {
 
   const petKitsData = [
     {
-      img: "/assets/pet-1.png",
+      img: "/assets/products/pet-1.webp",
       title: "Portable Medical Multi-Purpose Waterproof First Aid Pet Care Kit",
     },
     {
-      img: "/assets/pet-2.png",
+      img: "/assets/products/pet-2.webp",
       title: "Customized Tiny Pet Essential First Aid Kit for Dogs and Cats",
     },
     {
-      img: "/assets/pet-3.png",
+      img: "/assets/products/pet-3.webp",
       title: "Custom Pet Health Kit Bag for Travel | Pet Emergency Travel Kit",
     },
     {
-      img: "/assets/pet-4.png",
+      img: "/assets/products/pet-4.webp",
       title:
         "Portable First Aid Kit Medical Emergency Bag | CE Approved For Pet Owners",
     },
     {
-      img: "/assets/pet-5.png",
+      img: "/assets/products/pet-5.webp",
       title:
         "Pets Portable Medical Emergency Dog | First Aid Survival Kit For Pet Owners",
     },
     {
-      img: "/assets/pet-6.png",
+      img: "/assets/products/pet-6.webp",
       title:
         "Veternary Emergency Compact Pet First Aid Kit | Plus Eco Wholesale Eva Bag",
     },
@@ -143,7 +143,10 @@ const products = () => {
             />
 
             <Carousel.Caption>
-              <div className={styles.getStartedBtn} onClick={openWhatsAppHandler}>
+              <div
+                className={styles.getStartedBtn}
+                onClick={openWhatsAppHandler}
+              >
                 <span>Reach out on WhatsApp</span>
                 <Image
                   className={styles.img}
@@ -158,66 +161,66 @@ const products = () => {
           <Carousel.Item>
             <img
               className={styles.imgSlide}
-              src="/assets/product-caro-2.png"
+              src="/assets/product-caro-2.webp"
               alt="fourth slide"
             />
 
             <Carousel.Caption>
-              <Link href={'/contact#contactFormId'}>
-              <div className={styles.getStartedBtn}>
-                <span>Contact Us Now</span>
-                <Image
-                  className={styles.img}
-                  src="/icons/ctaArrow.svg"
-                  alt="arrow upright icon"
-                  height={12}
-                  width={12}
+              <Link href={"/contact#contactFormId"}>
+                <div className={styles.getStartedBtn}>
+                  <span>Contact Us Now</span>
+                  <Image
+                    className={styles.img}
+                    src="/icons/ctaArrow.svg"
+                    alt="arrow upright icon"
+                    height={12}
+                    width={12}
                   />
-              </div>
-                  </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className={styles.imgSlide}
-              src="/assets/product-caro-4.png"
-              alt="First slide"
-            />
-
-            <Carousel.Caption>
-            <Link href={'/contact#contactFormId'}>
-              <div className={styles.ctaButton}>
-                <span>Contact Us Now</span>
-                <Image
-                  className={styles.img}
-                  src="/icons/ctaArrow.svg"
-                  alt="arrow upright icon"
-                  height={12}
-                  width={12}
-                />
-              </div>
+                </div>
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.imgSlide}
-              src="/assets/product-caro-3.png"
+              src="/assets/product-caro-4.webp"
               alt="First slide"
             />
 
             <Carousel.Caption>
-            <Link href={'/contact#contactFormId'}>
-              <div className={styles.getStartedBtn}>
-                <span>Contact Us Now</span>
-                <Image
-                  className={styles.img}
-                  src="/icons/ctaArrow.svg"
-                  alt="arrow upright icon"
-                  height={12}
-                  width={12}
-                />
-              </div>
+              <Link href={"/contact#contactFormId"}>
+                <div className={styles.ctaButton}>
+                  <span>Contact Us Now</span>
+                  <Image
+                    className={styles.img}
+                    src="/icons/ctaArrow.svg"
+                    alt="arrow upright icon"
+                    height={12}
+                    width={12}
+                  />
+                </div>
+              </Link>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className={styles.imgSlide}
+              src="/assets/product-caro-3.webp"
+              alt="First slide"
+            />
+
+            <Carousel.Caption>
+              <Link href={"/contact#contactFormId"}>
+                <div className={styles.getStartedBtn}>
+                  <span>Contact Us Now</span>
+                  <Image
+                    className={styles.img}
+                    src="/icons/ctaArrow.svg"
+                    alt="arrow upright icon"
+                    height={12}
+                    width={12}
+                  />
+                </div>
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -277,22 +280,22 @@ const products = () => {
                     Stay safe with our top-quality, customizable first aid
                     kits—compliant, durable, and delivered worldwide.
                   </p>
-                  <Link href={'/contact#contactFormId'}>
-                  <div href={"/"} className={styles.ctaButton}>
-                    <span>Contact Us</span>
-                    <Image
-                      className={styles.img}
-                      src="/icons/ctaArrow.svg"
-                      alt="arrow upright icon"
-                      height={12}
-                      width={12}
-                    />
-                  </div>
+                  <Link href={"/contact#contactFormId"}>
+                    <div href={"/"} className={styles.ctaButton}>
+                      <span>Contact Us</span>
+                      <Image
+                        className={styles.img}
+                        src="/icons/ctaArrow.svg"
+                        alt="arrow upright icon"
+                        height={12}
+                        width={12}
+                      />
+                    </div>
                   </Link>
                 </div>
                 <div className={styles.right}>
                   <img
-                    src="/assets/final-cta2.png"
+                    src="/assets/final-cta2.webp"
                     alt="girl with first aid kit"
                   />
                 </div>

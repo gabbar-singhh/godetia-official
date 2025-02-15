@@ -273,7 +273,7 @@ const contact = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <img src="/assets/contact-hero.png" alt="about team" />
+            <img src="/assets/contact-hero.webp" alt="about team" />
           </div>
         </section>
 

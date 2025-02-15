@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className={styles.leftside_nav}>
         <Link href={"/"}>
           <img
-            src={"/logo/logo_orange.png"}
+            src={"/logo/logo-orange.webp"}
             className={styles.nav_logo}
             alt="godetia logo"
           />

@@ -11,7 +11,7 @@ const Modal = ({ showModalVal, closeModalHandler }) => {
               <h2 className={styles.heading}>Scan the Wechat Code</h2>
               <div className={styles.close_btn}>
                 <img
-                  src="/icons/cross_white.png"
+                  src="/icons/cross_white.webp"
                   onClick={closeModalHandler}
                   alt="cross icon"
                 />
@@ -24,7 +24,7 @@ const Modal = ({ showModalVal, closeModalHandler }) => {
               </p>
               <img
                 className={styles.qr_code}
-                src="/assets/wechat-qr.png"
+                src="/assets/wechat-qr.webp"
                 alt="qr code"
               />
             </div>

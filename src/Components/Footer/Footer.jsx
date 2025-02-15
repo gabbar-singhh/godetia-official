@@ -34,7 +34,7 @@ const Footer = () => {
       <footer className={`${styles.footer}`}>
         <Modal showModalVal={modalVal} closeModalHandler={closeModalHandler} />
         <div className={styles.logo}>
-          <img src="/logo/logo_white.png" alt="godetia logo" />
+          <img src="/logo/logo-white.webp" alt="godetia logo" />
         </div>
 
         <div className={styles.footerContent}>
