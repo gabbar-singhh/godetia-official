@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Certification.module.css";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
