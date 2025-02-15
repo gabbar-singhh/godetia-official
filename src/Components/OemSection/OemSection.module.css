@@ -6,7 +6,7 @@
     width: 100%;
     padding-top: 72px;
     padding-bottom: 128px;
-    background-image: url('/assets/bg-orange.png');
+    background-image: url('/assets/bg-orange.webp');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -98,17 +98,4 @@
     border-radius: 4px;
     position: relative;
     display: block;
-}
-
-.rightImg::after {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 400px;
-    height: 400px;
-    background-image: url("/assets/dots-teal.png");
-    background-size: contain;
-    background-repeat: no-repeat;
 }

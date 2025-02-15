@@ -53,7 +53,7 @@ const BrandsSection = () => {
           {logos.map((logo, index) => (
             <img
               key={index}
-              src={`/logo/logo-col/${logo}.png`}
+              src={`/logo/brands-logo/${logo}.webp`}
               alt={`${logo} logo`}
             />
           ))}

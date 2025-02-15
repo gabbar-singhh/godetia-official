@@ -31,7 +31,7 @@ const FinalCTA = () => {
           </Link>
         </div>
         <span className={styles.right}>
-          <img src="/assets/final-cta.png" alt="girl with first aid kit" />
+          <img src="/assets/final-cta1.webp" alt="girl with first aid kit" />
         </span>
       </div>
     </section>

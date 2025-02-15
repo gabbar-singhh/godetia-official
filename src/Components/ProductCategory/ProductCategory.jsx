@@ -38,7 +38,7 @@ const ProductCategory = () => {
             </div>
             <img
               className={styles.img}
-              src="/assets/portable.png"
+              src="/assets/portable.webp"
               height={300}
               alt=""
             />
@@ -68,7 +68,7 @@ const ProductCategory = () => {
             </div>
             <img
               className={styles.img}
-              src="/assets/survival.png"
+              src="/assets/survival.webp"
               height={300}
               alt=""
             />
@@ -98,7 +98,7 @@ const ProductCategory = () => {
             </div>
             <img
               className={styles.img}
-              src="/assets/car.png"
+              src="/assets/car.webp"
               height={300}
               alt=""
             />
@@ -128,7 +128,7 @@ const ProductCategory = () => {
             </div>
             <img
               className={styles.img}
-              src="/assets/pet.png"
+              src="/assets/pet.webp"
               height={120}
               alt=""
             />
@@ -158,7 +158,7 @@ const ProductCategory = () => {
             </div>
             <img
               className={styles.img}
-              src="/assets/home.png"
+              src="/assets/home.webp"
               height={120}
               alt=""
             />

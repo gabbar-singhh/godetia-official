@@ -6,7 +6,7 @@ const Certification = () => {
   const certificates = [];
 
   for (let num = 1; num <= 5; num++) {
-    certificates.push(`/assets/cert-${num}.jpg`);
+    certificates.push(`/assets/certificates/cert-${num}.webp`);
   }
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Certification = () => {
       <div className={styles.certificate}>
         <div className={styles.certificateSlide}>
           {certificates.map((src, index) => (
-            <img key={index} src={src} width={250} alt={`Logo ${index + 1}`} />
+            <img key={index} src={src} width={250} alt={`brand logo ${index + 1}`} />
           ))}
         </div>
       </div>
