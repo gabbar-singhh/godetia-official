@@ -57,7 +57,8 @@ const products = () => {
   const portableKitsData = [
     {
       img: "/assets/products/gf01.webp",
-      title: "GF-01 First Aid Kit Home | Personal Emergency Kit for Home and School",
+      title:
+        "GF-01 First Aid Kit Home | Personal Emergency Kit for Home and School",
     },
     {
       img: "/assets/products/gf02.webp",
@@ -110,8 +111,7 @@ const products = () => {
     },
     {
       img: "/assets/products/pet-4.webp",
-      title:
-        "Portable First Aid Kit Bag | CE Approved For Pet Owners",
+      title: "Portable First Aid Kit Bag | CE Approved For Pet Owners",
     },
     {
       img: "/assets/products/pet-5.webp",
@@ -155,8 +155,8 @@ const products = () => {
       <section className={styles.main}>
         <Navbar />
 
-        <Carousel>
-          <Carousel.Item>
+        <Carousel fade>
+          <Carousel.Item interval={2000}>
             <img
               className={styles.imgSlide}
               src="/assets/caro-5.webp"
@@ -179,7 +179,7 @@ const products = () => {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={2000}>
             <img
               className={styles.imgSlide}
               src="/assets/product-caro-2.webp"
@@ -201,7 +201,7 @@ const products = () => {
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={2000}>
             <img
               className={styles.imgSlide}
               src="/assets/product-caro-4.webp"

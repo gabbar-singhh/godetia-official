@@ -37,8 +37,8 @@ const HeroSectionNew = () => {
   }, ["/assets/caro-2.webp"]);
   return (
     <section className={styles.main}>
-      <Carousel>
-        <Carousel.Item>
+      <Carousel fade>
+        <Carousel.Item interval={2000}>
           {imageLoaded1 ? (
             <img
               className="d-block w-100"
@@ -66,7 +66,7 @@ const HeroSectionNew = () => {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={2000}>
           {imageLoaded2 ? (
             <img
               className="d-block w-100"
@@ -96,7 +96,7 @@ const HeroSectionNew = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={2000}>
           {imageLoaded3 ? (
             <img
               className="d-block w-100"
