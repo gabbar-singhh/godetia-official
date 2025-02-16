@@ -41,13 +41,16 @@ const FeaturedProducts = ({ heading, showBtnVal }) => {
           <div className={styles.card}>
             <img src="/assets/products/featured-2.webp" alt="" />
             <h2>
-              Large First Aid Kit for Outdoor Emergencies | Medical
-              Kits, Businesses & Home Supplies
+              Large First Aid Kit for Outdoor Emergencies | Medical Kits,
+              Businesses & Home Supplies
             </h2>
           </div>
           <div className={styles.card}>
             <img src="/assets/products/featured-8.webp" alt="" />
-            <h2>Pet's Large First Aid Bag | Durable and organized storage for all pets</h2>
+            <h2>
+              Pet's Large First Aid Bag | Durable and organized storage for all
+              pets
+            </h2>
           </div>
           <div className={styles.card}>
             <img src="/assets/products/featured-3.webp" alt="" />
@@ -59,8 +62,8 @@ const FeaturedProducts = ({ heading, showBtnVal }) => {
           <div className={styles.card}>
             <img src="/assets/products/featured-4.webp" alt="" />
             <h2>
-              Mini Survival Emergency Kit - Comprehensive And Lightweight |
-              Durable Storage For Outdoor
+              Mini Survival Emergency Kit | Lightweight and Durable Storage For
+              Outdoor
             </h2>
           </div>
           <div className={styles.card}>
@@ -71,11 +74,17 @@ const FeaturedProducts = ({ heading, showBtnVal }) => {
           </div>
           <div className={styles.card}>
             <img src="/assets/products/featured-6.webp" alt="" />
-            <h2>First Aid Kit Travel Pouch | Medicine Storage Organizer Bag with all necessary equipment </h2>
+            <h2>
+              First Aid Kit Travel Pouch | Storage Organizer Bag with all
+              necessary equipment{" "}
+            </h2>
           </div>
           <div className={styles.card}>
             <img src="/assets/products/featured-7.webp" alt="" />
-            <h2>Pet First Aid Kit with Emergency Collar | Ideal for any Emergencies for Pets</h2>
+            <h2>
+              Pet First Aid Kit with Emergency Collar | Ideal for any
+              Emergencies for Pets
+            </h2>
           </div>
         </Fade>
       </div>
