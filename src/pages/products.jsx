@@ -270,6 +270,59 @@ const products = () => {
               </div>
             </div>
 
+            <div className={styles.factoryFoshan}>
+              <div className={styles.factoryFoshanContainer}>
+                <div className={styles.left}>
+                  <div className={styles.content}>
+                    <Fade triggerOnce>
+                      <p className={styles.chip}>Our Factory in Foshan</p>
+                    </Fade>
+                    <Fade triggerOnce>
+                      <h1>
+                        Manufactured With Love <br /> for your safety{" "}
+                        <span className={styles.godetia}>by godetia</span>
+                      </h1>
+                    </Fade>
+                    <Fade triggerOnce>
+                      <p>
+                        Since 2015, our Foshan factory has been manufacturing
+                        high-quality first aid kits, certified with FDA, CE, and
+                        SGS, ensuring your safety everywhere.
+                      </p>
+                    </Fade>
+                  </div>
+
+                  <Fade triggerOnce>
+                    <Link href={"/contact#contactFormId"}>
+                      <div className={styles.ctaButton}>
+                        <span>Contact Us Now</span>
+                        <Image
+                          className={styles.img}
+                          src="/icons/ctaArrow.svg"
+                          alt="arrow upright icon"
+                          height={12}
+                          width={12}
+                        />
+                      </div>
+                    </Link>
+                  </Fade>
+                </div>
+                <Fade triggerOnce>
+                  <div className={styles.videoContainer}>
+                    <iframe
+                      className={styles.videoFrame}
+                      src="https://www.youtube.com/embed/Pv-zpntgeQA?si=Vifb_TaLCG18p-2r"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+
             <div className={styles.portableKits} id="portableKitsId">
               <Fade triggerOnce>
                 <h1>Car/ Home / Indoor First Aid Kits</h1>

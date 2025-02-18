@@ -48,22 +48,15 @@
 }
 
 .aboutFactory .videoContainer {
-    padding-top: 56.25%;
-    position: relative;
-    width: 85%;
-    margin: 0 auto;
-    height: fit-content;
-    border-radius: 8px !important;
+    margin: 2.4rem auto;
+    text-align: center;
 }
 
 .aboutFactory .videoIframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 8px !important;
+    width: 900px;
+    height: 506px;
+    border-radius: 16px !important;
+    border: 7px solid var(--primary-color);
 }
 
 .aboutCommit h1 {
@@ -140,7 +133,7 @@
 }
 
 .aboutTeam {
-    background-image: url('/assets/bg-saffron.webp');
+    background-image: url("/assets/bg-saffron.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -209,9 +202,12 @@
 }
 
 .finalCTA {
-
     padding: 96px 0;
-    background-image: linear-gradient(#fdfdfe, #fdfbfd, #fdf9fa, #fef7f6, #fcf6f2);
+    background-image: linear-gradient(#fdfdfe,
+            #fdfbfd,
+            #fdf9fa,
+            #fef7f6,
+            #fcf6f2);
 }
 
 .finalCTA .finalCTAContainer {
@@ -282,7 +278,6 @@
 .left .ctaButton:hover {
     color: #fff;
     background-color: #de7a03a8;
-
 }
 
 .right {
