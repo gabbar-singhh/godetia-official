@@ -87,11 +87,13 @@ const about = () => {
             <Fade triggerOnce>
               <div className={styles.videoContainer}>
                 <iframe
-                  src="https://player.vimeo.com/video/1055703501?h=ad40a8703f&badge=0&autopause=0&player_id=0&app_id=58479"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   className={styles.videoIframe}
-                  title="Introducing Godetia Your Partner in First Aid Kit Manufacturing"
+                  src="https://www.youtube.com/embed/Pv-zpntgeQA?si=Vifb_TaLCG18p-2r"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
                 ></iframe>
               </div>
             </Fade>

@@ -9,13 +9,13 @@
     justify-content: space-around;
     height: 80px;
     position: relative;
-    /* z-index: 1; */
     background-color: #fdf3eb
 }
 
 .leftside_nav .nav_logo {
     height: 34px;
     cursor: default;
+    cursor: pointer;
 }
 
 .rightside_nav .nav_ul {

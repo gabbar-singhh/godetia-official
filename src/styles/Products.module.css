@@ -109,6 +109,10 @@
     justify-content: center;
 }
 
+.survivalKits {
+    padding-top: 0;
+}
+
 .card {
     border-radius: 4px;
     background-color: #e5e5e5;
@@ -138,6 +142,116 @@
     margin-left: 12px;
     margin-top: 12px;
     text-transform: capitalize;
+}
+
+.factoryFoshan {
+    background-image: url(/assets/bg5.webp);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.factoryFoshanContainer {
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+    padding: 128px 36px;
+}
+
+.factoryFoshanContainer .left {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    justify-content: space-between;
+}
+
+.factoryFoshanContainer .left .chip {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #00808029;
+    box-shadow: 0 0 0 3px var(--accent-color);
+    color: var(--accent-color);
+    border-radius: 4rem;
+    padding: 4px 12px;
+    display: inline;
+}
+
+.factoryFoshanContainer .left h1 {
+    font-size: 42px;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 125%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    text-transform: capitalize;
+}
+
+.factoryFoshanContainer .left h1 .godetia {
+    color: var(--primary-color);
+    font-family: "Alkatra", serif;
+    font-size: 46px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 5px;
+    text-shadow: 2px 3px 5px #3c3c3c1f;
+}
+
+.factoryFoshanContainer .left p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 150%;
+    color: #636363;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    width: 556px;
+    margin-top: 1.2rem;
+}
+
+.factoryFoshanContainer .left .ctaButton {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: var(--primary-color);
+    padding: 1rem 1.4rem;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+}
+
+.factoryFoshanContainer .left .ctaButton:hover {
+    color: #fff;
+    background-color: #e9a465;
+}
+
+
+.factoryFoshanContainer .videoContainer {
+    margin: 0 auto;
+}
+
+.factoryFoshanContainer .videoFrame {
+    height: 624px;
+    width: 468px;
+    border-radius: 16px !important;
+    border: 9px solid var(--primary-color);
+}
+
+.certificate {
+    overflow: hidden;
+    padding-top: 3.2rem;
+    background: #eef5f5;
+    white-space: nowrap;
+    position: relative;
 }
 
 
