@@ -10,6 +10,7 @@ import ContactForm from "@/Components/ContactForm/ContactForm";
 import Footer from "@/Components/Footer/Footer";
 import Link from "next/link";
 import { Fade, Slide } from "react-awesome-reveal";
+import ProductCard from "@/Components/ProductCard/ProductCard";
 
 const products = () => {
   const survivalKitsData = [
@@ -261,10 +262,12 @@ const products = () => {
               <div className={styles.survivalKitsContainer}>
                 <Fade cascade damping={0.1} triggerOnce>
                   {survivalKitsData.map((kit, index) => (
-                    <div key={index} className={styles.card}>
-                      <img src={kit.img} alt={kit.title} />
-                      <h2>{kit.title}</h2>
-                    </div>
+                    <ProductCard
+                      key={index}
+                      imgSource={kit.img}
+                      imgAlt={kit.title}
+                      heading={kit.title}
+                    />
                   ))}
                 </Fade>
               </div>
@@ -330,10 +333,12 @@ const products = () => {
               <div className={styles.portableKitsContainer}>
                 <Fade cascade damping={0.1} triggerOnce>
                   {portableKitsData.map((kit, index) => (
-                    <div key={index} className={styles.card}>
-                      <img src={kit.img} alt={kit.title} />
-                      <h2>{kit.title}</h2>
-                    </div>
+                    <ProductCard
+                      key={index}
+                      imgSource={kit.img}
+                      imgAlt={kit.title}
+                      heading={kit.title}
+                    />
                   ))}
                 </Fade>
               </div>
@@ -346,10 +351,12 @@ const products = () => {
               <div className={styles.portableKitsContainer}>
                 <Fade cascade damping={0.1} triggerOnce>
                   {petKitsData.map((kit, index) => (
-                    <div key={index} className={styles.card}>
-                      <img src={kit.img} alt={kit.title} />
-                      <h2>{kit.title}</h2>
-                    </div>
+                    <ProductCard
+                      key={index}
+                      imgSource={kit.img}
+                      imgAlt={kit.title}
+                      heading={kit.title}
+                    />
                   ))}
                 </Fade>
               </div>

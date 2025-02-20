@@ -113,37 +113,6 @@
     padding-top: 0;
 }
 
-.card {
-    border-radius: 4px;
-    background-color: #e5e5e5;
-    background-color: #bfbfbf61;
-    padding: 1rem;
-    border: 1px solid #e3e3e3;
-    transition: all 300ms ease-in-out;
-    cursor: pointer;
-    width: fit-content;
-}
-
-.card:hover {
-    box-shadow: 5px 5px 12px #f1f1f1;
-    transform: translateY(-10px);
-}
-
-.card img {
-    height: 324px;
-    border-radius: 2px;
-}
-
-.card h2 {
-    font-size: 16px;
-    color: #3c3c3c;
-    line-height: 125%;
-    font-weight: 600;
-    margin-left: 12px;
-    margin-top: 12px;
-    text-transform: capitalize;
-}
-
 .factoryFoshan {
     background-image: url(/assets/bg5.webp);
     background-size: cover;
