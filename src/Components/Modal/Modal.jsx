@@ -24,7 +24,7 @@ const Modal = ({ showModalVal, closeModalHandler }) => {
               </p>
               <img
                 className={styles.qr_code}
-                src="/assets/wechat-qr.webp"
+                src="/assets/wechat-qr.png"
                 alt="qr code"
               />
             </div>
