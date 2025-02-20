@@ -1,7 +1,6 @@
 .footer {
-    background-color: #f08301;
-    padding: 72px 56px;
-    border-top: 1.5px solid #ffffff45;
+    background-color: #3c3c3c;
+    padding: 42px 56px 20px 56px;
 }
 
 .logo img {
@@ -9,7 +8,7 @@
 }
 
 .footerContent {
-    margin-top: 3.2rem;
+    margin-top: 2.4rem;
 
     display: flex;
     align-items: flex-start;
@@ -58,7 +57,7 @@
 .col2 {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .col2 .box1 h4,
@@ -113,7 +112,8 @@
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    background-color: #fdf3eb;
+    border: 1px solid var(--primary-color);
+    background-color: #434343;
     padding: 0.7rem 0.8rem;
     border-radius: 4px;
     color: var(--primary-color);
@@ -128,7 +128,7 @@
 }
 
 .col3 .mapBtn:hover {
-    background-color: #ffe3cc;
+    background-color: #575757;
 }
 
 .right {}
@@ -145,10 +145,10 @@
 
 .right .whatsappBtn,
 .right .wechatBtn {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    background-color: #fdf3eb;
-    padding: 1.8rem 1.8rem;
+    background-color: #434343;
+    padding: 1.2rem 1.8rem;
     border-radius: 4px;
     color: var(--primary-color);
     cursor: pointer;
@@ -156,14 +156,15 @@
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8px;
     margin-top: 1rem;
-    border: 1.5px solid #fff;
+    border: 1.5px solid var(--primary-color);
 }
 
 .right .whatsappBtn:hover,
 .right .wechatBtn:hover {
-    background-color: #ffe3cc;
+    background-color: #575757;
 }
 
 .footerFooter {
@@ -175,4 +176,5 @@
     font-weight: 500;
     transition: all 400ms ease-in-out;
     padding: 8px;
+    border-top: 1.5px solid #525151b3;
 }

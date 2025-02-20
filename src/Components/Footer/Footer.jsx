@@ -25,9 +25,8 @@ const Footer = () => {
     setModalVal(false);
   };
 
-  // UPDATE
   const openMapUrl = () => {
-    window.open("https://www.google.com", "_blank");
+    window.open("https://maps.app.goo.gl/qmfShD2kHS1kBMhZA", "_blank");
   };
   return (
     <>
@@ -109,6 +108,7 @@ const Footer = () => {
             <h4>let's get connected: </h4>
 
             <div className={styles.whatsappBtn} onClick={openWhatsAppHandler}>
+              <img src="/icons/whatsapp-saffron.svg" alt="whatsapp icon" height={34} width={34} />
               <span>WhatsApp</span>
               <Image
                 className={styles.img}
@@ -119,6 +119,7 @@ const Footer = () => {
               />
             </div>
             <div className={styles.wechatBtn} onClick={modalHandler}>
+            <img src="/icons/wechat-saffron.svg" alt="wechat icon" height={36} width={36} />
               <span>WeChat</span>
               <Image
                 className={styles.img}
