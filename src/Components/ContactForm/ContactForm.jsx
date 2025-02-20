@@ -199,6 +199,8 @@ const ContactForm = () => {
     "Zimbabwe",
   ];
 
+  const [username, setUsername] = useState("");
+  const [companyNameVal, setCompanyNameVal] = useState("");
   const [selectedCountry, setSelectedCountry] = useState("");
 
   const countryOnChangeHandler = (e) => {
@@ -282,7 +284,11 @@ const ContactForm = () => {
                   </option>
                 ))}
               </select>
-              <input type="number" placeholder="WhatsApp Number *" className={styles.inputSelect} />
+              <input
+                type="number"
+                placeholder="WhatsApp Number *"
+                className={styles.inputSelect}
+              />
             </div>
 
             <div className={styles.row4}>
