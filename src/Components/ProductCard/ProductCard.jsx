@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProductCard.module.css";
+import Link from "next/link";
 
 const ProductCard = (props) => {
   return (
@@ -9,12 +10,12 @@ const ProductCard = (props) => {
           src={props.imgSource}
           className={styles.cardImg}
           alt={props.imgAlt}
-        />
+          />
         <h2>{props.heading}</h2>
 
         <div className={styles.actionBtns}>
           <div className={styles.readMoreBtn}>Read More</div>
-          <div className={styles.sendInquiryBtn}>Send Inquiry</div>
+          <Link href={'/send_inquiry'} className={styles.sendInquiryBtn}>Send Inquiry</Link>
         </div>
       </div>
     </div>

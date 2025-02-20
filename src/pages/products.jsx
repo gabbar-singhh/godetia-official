@@ -11,6 +11,14 @@ import Footer from "@/Components/Footer/Footer";
 import Link from "next/link";
 import { Fade, Slide } from "react-awesome-reveal";
 import ProductCard from "@/Components/ProductCard/ProductCard";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 const products = () => {
   const survivalKitsData = [
@@ -153,7 +161,7 @@ const products = () => {
           rel="stylesheet"
         ></link>
       </Head>
-      <section className={styles.main}>
+      <section className={`${styles.main} ${poppins.className}`}>
         <Navbar />
 
         <Carousel fade>
